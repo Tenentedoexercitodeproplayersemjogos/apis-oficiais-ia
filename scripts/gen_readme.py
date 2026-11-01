@@ -40,6 +40,8 @@ def main():
     A(f"- **{livres['Sim']}** com free tier · **{livres['Limitado']}** com créditos limitados · "
       f"**{livres['Não']}** só pagos · **{livres['Local']}** locais (sem API key)")
     A(f"- **{paises['China']}** provedores chineses, incluindo Alibaba (Qwen) e DeepSeek")
+    A("- **OpenAI, Anthropic, Google, Meta, Mistral, xAI** também estão incluídos")
+    A("- O site mostra todos os provedores de uma vez; os filtros são opcionais")
     A("- Verificação automática dos links toda segunda-feira\n")
     A("## Por categoria\n")
     A("| Categoria | Provedores | Exemplos |")
