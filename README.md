@@ -13,6 +13,8 @@ Diretório com **122 provedores de IA** e o link oficial para criar a chave de A
 - **122** provedores em **13** categorias e **16** origens
 - **39** com free tier · **70** com créditos limitados · **4** só pagos · **9** locais (sem API key)
 - **16** provedores chineses, incluindo Alibaba (Qwen) e DeepSeek
+- **OpenAI, Anthropic, Google, Meta, Mistral, xAI** também estão incluídos
+- O site mostra todos os provedores de uma vez; os filtros são opcionais
 - Verificação automática dos links toda segunda-feira
 
 ## Por categoria
