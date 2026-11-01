@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Onde criar API de IA (links oficiais)</title>
+<title>Onde criar API de IA — links oficiais e origem</title>
+<meta name="description" content="Diretório com links oficiais para criar API key de IA, com free tier, documentação, modelos e país de origem.">
 <style>
   :root{
     --bg:#0d1117; --panel:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e;
@@ -15,15 +16,15 @@
   a:hover{text-decoration:underline}
   header{padding:30px 20px 8px;max-width:1200px;margin:0 auto}
   h1{margin:0 0 6px;font-size:27px}
-  .sub{color:var(--muted);margin:0 0 14px;max-width:820px}
-  .note{background:#1c2128;border:1px solid var(--border);border-left:3px solid var(--amber);border-radius:8px;padding:10px 14px;color:var(--muted);font-size:13px;margin:10px 0 14px;max-width:900px}
+  .sub{color:var(--muted);margin:0 0 14px;max-width:880px}
+  .note{background:#1c2128;border:1px solid var(--border);border-left:3px solid var(--amber);border-radius:8px;padding:10px 14px;color:var(--muted);font-size:13px;margin:10px 0 14px;max-width:940px}
   .note b{color:var(--text)}
   .stats{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:14px;margin-bottom:14px}
   .stats b{color:var(--text)}
   .links{display:flex;gap:14px;flex-wrap:wrap;font-size:14px}
   main{max-width:1200px;margin:0 auto;padding:0 20px 60px}
-  .controls{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:10px;margin:18px 0}
-  @media(max-width:820px){.controls{grid-template-columns:1fr 1fr}}
+  .controls{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:10px;margin:18px 0}
+  @media(max-width:980px){.controls{grid-template-columns:1fr 1fr}}
   @media(max-width:520px){.controls{grid-template-columns:1fr}}
   input,select{background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-size:14px;width:100%}
   input:focus,select:focus{outline:2px solid var(--accent);outline-offset:-1px}
@@ -40,6 +41,7 @@
   .b-lim{color:var(--amber);border-color:#9e6a03;background:#2a210e}
   .b-nao{color:var(--red);border-color:#da3633;background:#2d1214}
   .b-local{color:var(--blue);border-color:#1f6feb;background:#0d2a4d}
+  .b-pais{color:#c9d1d9;background:#1c2128}
   .modelos{margin:0;font-size:13px;color:var(--muted)}
   .obs{margin:0;font-size:13px;color:var(--text);opacity:.85}
   .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:6px}
@@ -55,21 +57,23 @@
 <body>
 <header>
   <h1>Onde criar API de IA</h1>
-  <p class="sub">Links oficiais para gerar a chave de API nos principais provedores de IA. Inclui site, documentação, modelos e se existe free tier.</p>
-  <div class="note"><b>Grátis ≠ licença livre.</b> Aqui “grátis” significa custo zero para usar, com limites. Free tiers mudam sem aviso — confira no site oficial. Sem afiliação.</div>
+  <p class="sub">Links oficiais para gerar a chave de API nos principais provedores de IA. Inclui site, documentação, modelos, free tier e país de origem.</p>
+  <div class="note"><b>Grátis ≠ licença livre.</b> Aqui “grátis” significa custo zero para usar, com limites. Free tiers mudam sem aviso — confira no site oficial. <b>Origem</b> = país-sede do provedor: empresas chinesas como Alibaba (Qwen) e DeepSeek aparecem como 🇨🇳 China — use o filtro “País” para vê-las. Sem afiliação.</div>
   <div class="stats" id="stats"></div>
   <div class="links">
     <a href="https://github.com/Tenentedoexercitodeproplayersemjogos/apis-oficiais-ia" target="_blank" rel="noopener">GitHub do projeto</a>
     <a href="https://tenentedoexercitodeproplayersemjogos.github.io/modelos-ia-oficiais-gratuitos/" target="_blank" rel="noopener">Site de modelos grátis</a>
     <a href="apis.csv">CSV</a>
     <a href="apis.json">JSON</a>
+    <a href="status.json">Status dos links</a>
   </div>
 </header>
 
 <main>
   <div class="controls">
-    <input id="q" type="search" placeholder="Buscar provedor, modelo ou categoria…" aria-label="Buscar">
+    <input id="q" type="search" placeholder="Buscar provedor, modelo, país…" aria-label="Buscar">
     <select id="cat" aria-label="Categoria"><option value="">Todas as categorias</option></select>
+    <select id="pais" aria-label="País"><option value="">Todos os países</option></select>
     <select id="free" aria-label="Grátis">
       <option value="">Grátis: todos</option>
       <option value="Sim">Sim</option>
@@ -97,8 +101,14 @@ let APIS = [], STATUS = null, view = [];
 
 const FREE_ORDER = { 'Sim': 0, 'Local': 1, 'Limitado': 2, 'Não': 3 };
 const FREE_CLASS = { 'Sim': 'b-sim', 'Limitado': 'b-lim', 'Não': 'b-nao', 'Local': 'b-local' };
+const FLAGS = {
+  'EUA':'🇺🇸','China':'🇨🇳','França':'🇫🇷','Alemanha':'🇩🇪','Reino Unido':'🇬🇧','Canadá':'🇨🇦',
+  'Israel':'🇮🇱','Coreia do Sul':'🇰🇷','Índia':'🇮🇳','Rússia':'🇷🇺','Austrália':'🇦🇺','Áustria':'🇦🇹',
+  'República Tcheca':'🇨🇿','Itália':'🇮🇹','Hong Kong':'🇭🇰','Global':'🌐'
+};
 
-function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>\"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function flag(p){ return FLAGS[p] || '🌐'; }
 
 async function load(){
   const [a, s] = await Promise.allSettled([
@@ -108,16 +118,39 @@ async function load(){
   APIS = a.status === 'fulfilled' ? a.value : [];
   STATUS = s.status === 'fulfilled' ? s.value : null;
   initFilters();
+  readParams();
   apply();
 }
 
 function initFilters(){
-  const cats = [...new Set(APIS.map(p => p.categoria))].sort((x,y) => x.localeCompare(y));
+  const cats = [...new Set(APIS.map(p => p.categoria))].sort((x,y) => x.localeCompare(y, 'pt-BR'));
   for (const c of cats){
     const o = document.createElement('option');
     o.value = c; o.textContent = c; $('cat').appendChild(o);
   }
-  for (const id of ['q','cat','free','sort']) $(id).addEventListener('input', apply);
+  const paises = [...new Set(APIS.map(p => p.pais))].sort((x,y) => x.localeCompare(y, 'pt-BR'));
+  for (const p of paises){
+    const o = document.createElement('option');
+    o.value = p; o.textContent = flag(p) + ' ' + p; $('pais').appendChild(o);
+  }
+  $('q').addEventListener('input', apply);
+  for (const id of ['cat','pais','free','sort']) $(id).addEventListener('change', apply);
+}
+
+function readParams(){
+  const qs = new URLSearchParams(location.search);
+  for (const id of ['q','cat','pais','free','sort']){
+    if (qs.has(id)) $(id).value = qs.get(id);
+  }
+}
+
+function syncParams(){
+  const qs = new URLSearchParams();
+  for (const id of ['q','cat','pais','free','sort']){
+    if ($(id).value) qs.set(id, $(id).value);
+  }
+  const url = qs.toString() ? '?' + qs.toString() : location.pathname;
+  try { history.replaceState(null, '', url); } catch(e){}
 }
 
 function worstStatus(id){
@@ -133,27 +166,31 @@ function worstStatus(id){
 function apply(){
   const q = $('q').value.trim().toLowerCase();
   view = APIS.filter(p =>
-    (!q || [p.nome, p.id, p.modelos, p.obs, p.categoria].join(' ').toLowerCase().includes(q)) &&
+    (!q || [p.nome, p.id, p.modelos, p.obs, p.categoria, p.pais].join(' ').toLowerCase().includes(q)) &&
     (!$('cat').value || p.categoria === $('cat').value) &&
+    (!$('pais').value || p.pais === $('pais').value) &&
     (!$('free').value || p.gratis === $('free').value)
   );
   const mode = $('sort').value;
   view.sort((x,y) =>
-    mode === 'za' ? y.nome.localeCompare(x.nome) :
-    mode === 'free' ? (FREE_ORDER[x.gratis] ?? 9) - (FREE_ORDER[y.gratis] ?? 9) || x.nome.localeCompare(y.nome) :
-    x.nome.localeCompare(y.nome)
+    mode === 'za' ? y.nome.localeCompare(x.nome, 'pt-BR') :
+    mode === 'free' ? (FREE_ORDER[x.gratis] ?? 9) - (FREE_ORDER[y.gratis] ?? 9) || x.nome.localeCompare(y.nome, 'pt-BR') :
+    x.nome.localeCompare(y.nome, 'pt-BR')
   );
+  syncParams();
   renderStats();
   render();
 }
 
 function renderStats(){
-  const cats = new Set(view.map(p => p.categoria)).size;
+  const paises = new Set(view.map(p => p.pais)).size;
   const sim = view.filter(p => p.gratis === 'Sim' || p.gratis === 'Local').length;
+  const china = APIS.filter(p => p.pais === 'China').length;
   $('stats').innerHTML =
     `<span><b>${view.length}</b> provedores</span>` +
     `<span><b>${sim}</b> grátis ou locais</span>` +
-    `<span><b>${cats}</b> categorias</span>` +
+    `<span><b>${paises}</b> países/origens</span>` +
+    `<span><b>${china}</b> da China</span>` +
     `<span><b>${APIS.length}</b> no total</span>`;
   if (STATUS && STATUS.checked_at){
     const d = new Date(STATUS.checked_at);
@@ -179,6 +216,7 @@ function render(){
       <div class="cardhead"><h3>${esc(p.nome)}</h3><span class="dot ${st}" title="${dotTitle}"></span></div>
       <div class="badges">
         <span class="badge">${esc(p.categoria)}</span>
+        <span class="badge b-pais">${flag(p.pais)} ${esc(p.pais)}</span>
         <span class="badge ${FREE_CLASS[p.gratis] || ''}">Grátis: ${esc(p.gratis)}</span>
       </div>
       <p class="modelos"><b>Modelos:</b> ${esc(p.modelos)}</p>
