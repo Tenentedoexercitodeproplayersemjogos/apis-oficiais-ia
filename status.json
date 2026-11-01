@@ -1,8 +1,8 @@
 {
- "checked_at": "2026-11-01T22:43:43Z",
+ "checked_at": "2026-11-01T22:45:04Z",
  "resumo": {
-  "ok": 334,
-  "protegido": 23,
+  "ok": 331,
+  "protegido": 26,
   "erro": 0,
   "sem-chave": 9
  },
@@ -504,8 +504,8 @@
     "status": "ok"
    },
    "chave": {
-    "code": 200,
-    "status": "ok"
+    "code": 403,
+    "status": "protegido"
    },
    "docs": {
     "code": 200,
@@ -938,12 +938,12 @@
     "status": "ok"
    },
    "chave": {
-    "code": 200,
-    "status": "ok"
+    "code": 307,
+    "status": "protegido"
    },
    "docs": {
-    "code": 200,
-    "status": "ok"
+    "code": 307,
+    "status": "protegido"
    }
   },
   "gigachat": {
