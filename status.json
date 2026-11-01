@@ -1,0 +1,572 @@
+{
+ "checked_at": "2026-11-01T22:26:30Z",
+ "resumo": {
+  "ok": 110,
+  "protegido": 7,
+  "erro": 0,
+  "sem-chave": 3
+ },
+ "erros": [],
+ "resultados": {
+  "openai": {
+   "site": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "chave": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "anthropic": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "google-ai-studio": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "google-cloud": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "azure-openai": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "aws-bedrock": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "mistral": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "cohere": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "groq": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "together": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "fireworks": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "openrouter": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "huggingface": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "nvidia-nim": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "deepseek": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 202,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "alibaba": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "xai": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "perplexity": {
+   "site": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "chave": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "replicate": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "stability": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "elevenlabs": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "deepgram": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "assemblyai": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "cerebras": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "sambanova": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "ai21": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "voyage": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 400,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "jina": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "zhipu": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "moonshot": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "minimax": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 307,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "volcengine": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "tencent": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "baidu": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "github-models": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "cloudflare": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "ollama": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 0,
+    "status": "sem-chave"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "lmstudio": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 0,
+    "status": "sem-chave"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "vllm": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 0,
+    "status": "sem-chave"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "opencode": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  }
+ }
+}
