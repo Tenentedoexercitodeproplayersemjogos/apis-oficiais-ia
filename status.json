@@ -1,10 +1,10 @@
 {
- "checked_at": "2026-11-01T22:30:34Z",
+ "checked_at": "2026-11-01T22:43:43Z",
  "resumo": {
-  "ok": 108,
-  "protegido": 9,
+  "ok": 334,
+  "protegido": 23,
   "erro": 0,
-  "sem-chave": 3
+  "sem-chave": 9
  },
  "erros": [],
  "resultados": {
@@ -354,8 +354,8 @@
     "status": "ok"
    },
    "docs": {
-    "code": 403,
-    "status": "protegido"
+    "code": 200,
+    "status": "ok"
    }
   },
   "ai21": {
@@ -504,8 +504,8 @@
     "status": "ok"
    },
    "chave": {
-    "code": 403,
-    "status": "protegido"
+    "code": 200,
+    "status": "ok"
    },
    "docs": {
     "code": 200,
@@ -562,6 +562,1154 @@
    "chave": {
     "code": 200,
     "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "deepinfra": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "novita": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "hyperbolic": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "fal": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "modal": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "baseten": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 202,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "runpod": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "anyscale": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "requesty": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "portkey": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "helicone": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "eden": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "aimlapi": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "cometapi": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "ibm": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 401,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 403,
+    "status": "protegido"
+   }
+  },
+  "oracle": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "databricks": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "snowflake": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "huawei": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "iflytek": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "baichuan": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "yi": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "stepfun": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "naver": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "upstage": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "sarvam": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "yandex": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "gigachat": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "aleph": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "contextual": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "writer": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "reka": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "nous": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "meta-llama": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "bfl": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "ideogram": {
+   "site": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "chave": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "recraft": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "leonardo": {
+   "site": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "chave": {
+    "code": 429,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "adobe": {
+   "site": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "clipdrop": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "bria": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "photoroom": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "removebg": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "shutterstock": {
+   "site": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "chave": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 403,
+    "status": "protegido"
+   }
+  },
+  "runway": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "luma": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "kling": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "vidu": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "heygen": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "synthesia": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "did": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "tavus": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "twelvelabs": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 429,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "shotstack": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "cartesia": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 429,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "hume": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "speechmatics": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "revai": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "soniox": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "gladia": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "resemble": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "lmnt": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "rime": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "exa": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 429,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "tavily": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "brave-search": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 403,
+    "status": "protegido"
+   },
+   "docs": {
+    "code": 403,
+    "status": "protegido"
+   }
+  },
+  "serper": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "firecrawl": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "apify": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "unstructured": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "llamaparse": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "meshy": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "tripo": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "deepl": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "nomic": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "mixedbread": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 200,
+    "status": "ok"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "llama-cpp": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 0,
+    "status": "sem-chave"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "jan": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 0,
+    "status": "sem-chave"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "gpt4all": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 0,
+    "status": "sem-chave"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "localai": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 0,
+    "status": "sem-chave"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "libretranslate": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 0,
+    "status": "sem-chave"
+   },
+   "docs": {
+    "code": 200,
+    "status": "ok"
+   }
+  },
+  "comfyui": {
+   "site": {
+    "code": 200,
+    "status": "ok"
+   },
+   "chave": {
+    "code": 0,
+    "status": "sem-chave"
    },
    "docs": {
     "code": 200,
