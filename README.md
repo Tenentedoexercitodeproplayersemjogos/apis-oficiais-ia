@@ -1,67 +1,76 @@
 # Onde criar API de IA (links oficiais)
 
-Diretório com **40 provedores de IA** e o link oficial para criar a chave de API. Inclui site, documentação, modelos principais e se existe free tier.
+Diretório com **122 provedores de IA** e o link oficial para criar a chave de API. Inclui site, documentação, modelos principais, free tier e país de origem.
 
 🌐 **Site com busca e filtros:** https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/
 
 ⚠️ **Grátis ≠ licença livre.** Aqui "grátis" significa custo zero para usar (com limites). Free tiers mudam sem aviso — confira sempre no site oficial.
 
+📍 **Origem** = país-sede do provedor. Empresas chinesas, como Alibaba (Qwen) e DeepSeek, aparecem como **China** e podem ser filtradas no site.
+
 ## Resumo
 
-- **40** provedores
-- **17** com free tier · **16** com créditos limitados · **4** só pagos · **3** locais (sem API key)
-- **7** categorias: Texto/Chat (17) · Multimodal (2) · Imagem (1) · Áudio/Voz (3) · Embeddings (2) · Cloud (12) · Local (3)
+- **122** provedores em **13** categorias e **16** origens
+- **39** com free tier · **70** com créditos limitados · **4** só pagos · **9** locais (sem API key)
+- **16** provedores chineses, incluindo Alibaba (Qwen) e DeepSeek
+- Verificação automática dos links toda segunda-feira
 
-## Provedores
+## Por categoria
 
-| Provedor | Categoria | Grátis | Criar API | Site | Docs | Modelos |
-|---|---|---|---|---|---|---|
-| **AI21 Labs** | Texto/Chat | Limitado | [criar](https://studio.ai21.com/account/api-key) | [site](https://www.ai21.com/) | [docs](https://docs.ai21.com/) | Jamba |
-| **Alibaba Model Studio (Qwen)** | Texto/Chat | Limitado | [criar](https://modelstudio.console.alibabacloud.com/) | [site](https://www.alibabacloud.com/) | [docs](https://www.alibabacloud.com/help/en/model-studio) | Qwen |
-| **Anthropic** | Texto/Chat | Não | [criar](https://console.anthropic.com/settings/keys) | [site](https://www.anthropic.com/) | [docs](https://docs.anthropic.com/) | Claude |
-| **Cerebras** | Texto/Chat | Sim | [criar](https://cloud.cerebras.ai/) | [site](https://www.cerebras.ai/) | [docs](https://inference-docs.cerebras.ai/) | Llama, Qwen |
-| **Cohere** | Texto/Chat | Sim | [criar](https://dashboard.cohere.com/api-keys) | [site](https://cohere.com/) | [docs](https://docs.cohere.com/) | Command, Embed |
-| **DeepSeek** | Texto/Chat | Não | [criar](https://platform.deepseek.com/api_keys) | [site](https://www.deepseek.com/) | [docs](https://api-docs.deepseek.com/) | DeepSeek V3/R |
-| **Groq** | Texto/Chat | Sim | [criar](https://console.groq.com/keys) | [site](https://groq.com/) | [docs](https://console.groq.com/docs) | Llama, Qwen, Whisper |
-| **Mistral AI** | Texto/Chat | Sim | [criar](https://console.mistral.ai/api-keys) | [site](https://mistral.ai/) | [docs](https://docs.mistral.ai/) | Mistral, Codestral |
-| **Moonshot Kimi** | Texto/Chat | Limitado | [criar](https://platform.moonshot.ai/console/api-keys) | [site](https://www.moonshot.ai/) | [docs](https://platform.moonshot.ai/docs) | Kimi |
-| **OpenAI** | Texto/Chat | Não | [criar](https://platform.openai.com/api-keys) | [site](https://openai.com/) | [docs](https://platform.openai.com/docs) | GPT-5.x, o-series |
-| **OpenCode** | Texto/Chat | Sim | [criar](https://opencode.ai/auth) | [site](https://opencode.ai/) | [docs](https://opencode.ai/docs) | Vários modelos |
-| **OpenRouter** | Texto/Chat | Sim | [criar](https://openrouter.ai/settings/keys) | [site](https://openrouter.ai/) | [docs](https://openrouter.ai/docs) | Vários (inclui :free) |
-| **Perplexity** | Texto/Chat | Não | [criar](https://www.perplexity.ai/settings/api) | [site](https://www.perplexity.ai/) | [docs](https://docs.perplexity.ai/) | Sonar |
-| **SambaNova** | Texto/Chat | Sim | [criar](https://cloud.sambanova.ai/apis) | [site](https://sambanova.ai/) | [docs](https://docs.sambanova.ai/) | Llama, DeepSeek |
-| **Tencent Hunyuan** | Texto/Chat | Limitado | [criar](https://console.cloud.tencent.com/hunyuan) | [site](https://cloud.tencent.com/) | [docs](https://cloud.tencent.com/document/product/1729) | Hunyuan |
-| **xAI** | Texto/Chat | Limitado | [criar](https://console.x.ai/) | [site](https://x.ai/) | [docs](https://docs.x.ai/) | Grok |
-| **Zhipu GLM** | Texto/Chat | Limitado | [criar](https://open.bigmodel.cn/) | [site](https://www.zhipuai.cn/) | [docs](https://docs.bigmodel.cn/) | GLM |
-| **Google AI Studio** | Multimodal | Sim | [criar](https://aistudio.google.com/app/apikey) | [site](https://ai.google.dev/) | [docs](https://ai.google.dev/gemini-api/docs) | Gemini |
-| **MiniMax** | Multimodal | Limitado | [criar](https://platform.minimaxi.com/) | [site](https://www.minimax.io/) | [docs](https://platform.minimax.io/docs) | Hailuo, MiniMax |
-| **Stability AI** | Imagem | Limitado | [criar](https://platform.stability.ai/account/keys) | [site](https://stability.ai/) | [docs](https://platform.stability.ai/docs) | SDXL, Stable Diffusion 3.5 |
-| **AssemblyAI** | Áudio/Voz | Sim | [criar](https://www.assemblyai.com/dashboard/api-keys) | [site](https://www.assemblyai.com/) | [docs](https://www.assemblyai.com/docs) | Transcrição |
-| **Deepgram** | Áudio/Voz | Sim | [criar](https://console.deepgram.com/) | [site](https://deepgram.com/) | [docs](https://developers.deepgram.com/) | STT/TTS |
-| **ElevenLabs** | Áudio/Voz | Sim | [criar](https://elevenlabs.io/app/settings/api-keys) | [site](https://elevenlabs.io/) | [docs](https://elevenlabs.io/docs) | TTS, clonagem |
-| **Jina AI** | Embeddings | Sim | [criar](https://jina.ai/api-dashboard/) | [site](https://jina.ai/) | [docs](https://jina.ai/embeddings/) | jina-embeddings |
-| **Voyage AI** | Embeddings | Sim | [criar](https://dashboard.voyageai.com/) | [site](https://www.voyageai.com/) | [docs](https://docs.voyageai.com/) | voyage-3 |
-| **AWS Bedrock** | Cloud | Limitado | [criar](https://console.aws.amazon.com/bedrock/) | [site](https://aws.amazon.com/bedrock/) | [docs](https://docs.aws.amazon.com/bedrock/) | Claude, Llama, Titan |
-| **Azure OpenAI** | Cloud | Limitado | [criar](https://portal.azure.com/) | [site](https://azure.microsoft.com/products/ai-services/openai-service) | [docs](https://learn.microsoft.com/azure/ai-services/openai/) | GPT, DALL·E |
-| **Baidu Qianfan** | Cloud | Limitado | [criar](https://console.bce.baidu.com/qianfan/) | [site](https://cloud.baidu.com/) | [docs](https://cloud.baidu.com/product/qianfan.html) | ERNIE |
-| **Cloudflare Workers AI** | Cloud | Sim | [criar](https://dash.cloudflare.com/) | [site](https://www.cloudflare.com/) | [docs](https://developers.cloudflare.com/workers-ai/) | Llama, FLUX, Whisper |
-| **Fireworks AI** | Cloud | Limitado | [criar](https://fireworks.ai/api-keys) | [site](https://fireworks.ai/) | [docs](https://docs.fireworks.ai/) | Llama, Qwen, FLUX |
-| **GitHub Models** | Cloud | Sim | [criar](https://github.com/settings/tokens) | [site](https://github.com/features/models) | [docs](https://docs.github.com/en/github-models) | GPT, Llama, Phi |
-| **Google Cloud (Vertex AI)** | Cloud | Limitado | [criar](https://console.cloud.google.com/apis/credentials) | [site](https://cloud.google.com/vertex-ai) | [docs](https://cloud.google.com/vertex-ai/docs) | Gemini, Imagen, Veo |
-| **Hugging Face** | Cloud | Sim | [criar](https://huggingface.co/settings/tokens) | [site](https://huggingface.co/) | [docs](https://huggingface.co/docs/api-inference) | Milhares de modelos |
-| **NVIDIA NIM** | Cloud | Sim | [criar](https://build.nvidia.com/) | [site](https://build.nvidia.com/) | [docs](https://docs.nvidia.com/nim/) | Nemotron, Llama |
-| **Replicate** | Cloud | Limitado | [criar](https://replicate.com/account/api-tokens) | [site](https://replicate.com/) | [docs](https://replicate.com/docs) | FLUX, Whisper, vídeo |
-| **Together AI** | Cloud | Limitado | [criar](https://api.together.ai/settings/api-keys) | [site](https://www.together.ai/) | [docs](https://docs.together.ai/) | Llama, Qwen, FLUX |
-| **Volcengine Ark (ByteDance)** | Cloud | Limitado | [criar](https://console.volcengine.com/ark) | [site](https://www.volcengine.com/) | [docs](https://www.volcengine.com/docs/82379) | Doubao, Seed |
-| **LM Studio** | Local | Local | — (local) | [site](https://lmstudio.ai/) | [docs](https://lmstudio.ai/docs/app) | Vários GGUF |
-| **Ollama** | Local | Local | — (local) | [site](https://ollama.com/) | [docs](https://docs.ollama.com/) | Llama, Qwen, Gemma |
-| **vLLM** | Local | Local | — (local) | [site](https://vllm.ai/) | [docs](https://docs.vllm.ai/) | Qualquer modelo HF |
+| Categoria | Provedores | Exemplos |
+|---|---:|---|
+| **Texto/Chat** | 24 | AI21 Labs, Aleph Alpha, Alibaba Model Studio (Qwen), Anthropic, … |
+| **Multimodal** | 2 | Google AI Studio, MiniMax |
+| **Imagem** | 11 | Adobe Firefly, Black Forest Labs (FLUX), Bria AI, Clipdrop, … |
+| **Vídeo** | 10 | D-ID, HeyGen, Kling AI, Luma AI, … |
+| **Áudio/Voz** | 12 | AssemblyAI, Cartesia, Deepgram, ElevenLabs, … |
+| **Embeddings** | 4 | Jina AI, Mixedbread, Nomic AI, Voyage AI |
+| **Busca/RAG** | 6 | Apify, Brave Search API, Exa, Firecrawl, … |
+| **OCR/Documentos** | 2 | LlamaParse, Unstructured |
+| **3D** | 2 | Meshy, Tripo AI |
+| **Tradução** | 2 | DeepL, LibreTranslate |
+| **Inferência** | 14 | AI/ML API, Anyscale, Baseten, CometAPI, … |
+| **Cloud** | 25 | 01.AI (Yi), AWS Bedrock, Azure OpenAI, Baichuan AI, … |
+| **Local** | 8 | ComfyUI, GPT4All, Jan, LM Studio, … |
+
+## Por origem
+
+| Origem | Provedores | Filtro |
+|---|---:|---|
+| **EUA** | 73 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=EUA) |
+| **China** | 16 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=China) |
+| **Alemanha** | 5 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=Alemanha) |
+| **França** | 5 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=Fran%C3%A7a) |
+| **Reino Unido** | 4 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=Reino%20Unido) |
+| **Canadá** | 3 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=Canad%C3%A1) |
+| **Israel** | 3 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=Israel) |
+| **Austrália** | 2 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=Austr%C3%A1lia) |
+| **Coreia do Sul** | 2 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=Coreia%20do%20Sul) |
+| **Global** | 2 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=Global) |
+| **Rússia** | 2 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=R%C3%BAssia) |
+| **Hong Kong** | 1 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=Hong%20Kong) |
+| **Itália** | 1 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=It%C3%A1lia) |
+| **República Tcheca** | 1 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=Rep%C3%BAblica%20Tcheca) |
+| **Áustria** | 1 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=%C3%81ustria) |
+| **Índia** | 1 | [ver](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=%C3%8Dndia) |
+
+## Provedores chineses
+
+01.AI (Yi), Alibaba Model Studio (Qwen), Baichuan AI, Baidu Qianfan, DeepSeek, Huawei Cloud, Kling AI, MiniMax, Moonshot Kimi, StepFun, Tencent Hunyuan, Tripo AI, Vidu, Volcengine Ark (ByteDance), Zhipu GLM, iFlytek Spark.
+
+🔎 [Ver todos os provedores chineses no site](https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/?pais=China)
+
+## Onde ver tudo
+
+- **Site completo, com busca e filtros:** https://tenentedoexercitodeproplayersemjogos.github.io/apis-oficiais-ia/
+- **CSV:** [apis.csv](apis.csv) · **JSON:** [apis.json](apis.json)
+- **Status dos links:** [status.json](status.json)
 
 ## Observações
 
-- Os links de chave levam direto ao painel oficial do provedor (login necessário).
+- Os links de chave levam ao painel oficial do provedor (login necessário).
 - `Local` = roda no seu computador; não existe chave de API.
-- Dados: [`apis.csv`](apis.csv) · [`apis.json`](apis.json) · verificação: [`status.json`](status.json)
-- Sem afiliação com os provedores. Preços e limites podem mudar.
+- A origem é a sede do provedor; hospedagem e disponibilidade podem variar por região.
+- Sem afiliação com os provedores. Preços, limites e países podem mudar.
 
 _README e CSV gerados automaticamente a partir de `apis.json`._
