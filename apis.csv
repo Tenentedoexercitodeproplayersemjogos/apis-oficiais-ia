@@ -1,41 +1,123 @@
-id,nome,categoria,gratis,site,criar_api,docs,modelos,obs
-openai,OpenAI,Texto/Chat,Não,https://openai.com/,https://platform.openai.com/api-keys,https://platform.openai.com/docs,"GPT-5.x, o-series",Pagamento por uso; sem free tier fixo.
-anthropic,Anthropic,Texto/Chat,Não,https://www.anthropic.com/,https://console.anthropic.com/settings/keys,https://docs.anthropic.com/,Claude,Créditos iniciais às vezes; uso pago.
-google-ai-studio,Google AI Studio,Multimodal,Sim,https://ai.google.dev/,https://aistudio.google.com/app/apikey,https://ai.google.dev/gemini-api/docs,Gemini,Free tier com limites; ótimo para começar.
-google-cloud,Google Cloud (Vertex AI),Cloud,Limitado,https://cloud.google.com/vertex-ai,https://console.cloud.google.com/apis/credentials,https://cloud.google.com/vertex-ai/docs,"Gemini, Imagen, Veo",Créditos de teste; requer projeto GCP.
-azure-openai,Azure OpenAI,Cloud,Limitado,https://azure.microsoft.com/products/ai-services/openai-service,https://portal.azure.com/,https://learn.microsoft.com/azure/ai-services/openai/,"GPT, DALL·E",Requer assinatura Azure e acesso aprovado.
-aws-bedrock,AWS Bedrock,Cloud,Limitado,https://aws.amazon.com/bedrock/,https://console.aws.amazon.com/bedrock/,https://docs.aws.amazon.com/bedrock/,"Claude, Llama, Titan",Pago por uso; requer conta AWS.
-mistral,Mistral AI,Texto/Chat,Sim,https://mistral.ai/,https://console.mistral.ai/api-keys,https://docs.mistral.ai/,"Mistral, Codestral",Free tier de experimentação.
-cohere,Cohere,Texto/Chat,Sim,https://cohere.com/,https://dashboard.cohere.com/api-keys,https://docs.cohere.com/,"Command, Embed",Trial keys grátis com limite.
-groq,Groq,Texto/Chat,Sim,https://groq.com/,https://console.groq.com/keys,https://console.groq.com/docs,"Llama, Qwen, Whisper",Free tier generoso; inferência rápida.
-together,Together AI,Cloud,Limitado,https://www.together.ai/,https://api.together.ai/settings/api-keys,https://docs.together.ai/,"Llama, Qwen, FLUX",Créditos iniciais; depois pago.
-fireworks,Fireworks AI,Cloud,Limitado,https://fireworks.ai/,https://fireworks.ai/api-keys,https://docs.fireworks.ai/,"Llama, Qwen, FLUX",Créditos de teste.
-openrouter,OpenRouter,Texto/Chat,Sim,https://openrouter.ai/,https://openrouter.ai/settings/keys,https://openrouter.ai/docs,Vários (inclui :free),Modelos :free com custo zero; bom agregador.
-huggingface,Hugging Face,Cloud,Sim,https://huggingface.co/,https://huggingface.co/settings/tokens,https://huggingface.co/docs/api-inference,Milhares de modelos,Créditos mensais de Inference.
-nvidia-nim,NVIDIA NIM,Cloud,Sim,https://build.nvidia.com/,https://build.nvidia.com/,https://docs.nvidia.com/nim/,"Nemotron, Llama",Créditos grátis para experimentar.
-deepseek,DeepSeek,Texto/Chat,Não,https://www.deepseek.com/,https://platform.deepseek.com/api_keys,https://api-docs.deepseek.com/,DeepSeek V3/R,Barato; sem free tier fixo.
-alibaba,Alibaba Model Studio (Qwen),Texto/Chat,Limitado,https://www.alibabacloud.com/,https://modelstudio.console.alibabacloud.com/,https://www.alibabacloud.com/help/en/model-studio,Qwen,Cotas gratuitas por tempo limitado.
-xai,xAI,Texto/Chat,Limitado,https://x.ai/,https://console.x.ai/,https://docs.x.ai/,Grok,Créditos promocionais; depois pago.
-perplexity,Perplexity,Texto/Chat,Não,https://www.perplexity.ai/,https://www.perplexity.ai/settings/api,https://docs.perplexity.ai/,Sonar,Pago por uso.
-replicate,Replicate,Cloud,Limitado,https://replicate.com/,https://replicate.com/account/api-tokens,https://replicate.com/docs,"FLUX, Whisper, vídeo",Paga por segundo; créditos iniciais.
-stability,Stability AI,Imagem,Limitado,https://stability.ai/,https://platform.stability.ai/account/keys,https://platform.stability.ai/docs,"SDXL, Stable Diffusion 3.5",Créditos grátis iniciais.
-elevenlabs,ElevenLabs,Áudio/Voz,Sim,https://elevenlabs.io/,https://elevenlabs.io/app/settings/api-keys,https://elevenlabs.io/docs,"TTS, clonagem",Free tier mensal com limite.
-deepgram,Deepgram,Áudio/Voz,Sim,https://deepgram.com/,https://console.deepgram.com/,https://developers.deepgram.com/,STT/TTS,Crédito grátis inicial.
-assemblyai,AssemblyAI,Áudio/Voz,Sim,https://www.assemblyai.com/,https://www.assemblyai.com/dashboard/api-keys,https://www.assemblyai.com/docs,Transcrição,Créditos grátis.
-cerebras,Cerebras,Texto/Chat,Sim,https://www.cerebras.ai/,https://cloud.cerebras.ai/,https://inference-docs.cerebras.ai/,"Llama, Qwen",Free tier com limite.
-sambanova,SambaNova,Texto/Chat,Sim,https://sambanova.ai/,https://cloud.sambanova.ai/apis,https://docs.sambanova.ai/,"Llama, DeepSeek",Free tier com limite.
-ai21,AI21 Labs,Texto/Chat,Limitado,https://www.ai21.com/,https://studio.ai21.com/account/api-key,https://docs.ai21.com/,Jamba,Créditos de teste.
-voyage,Voyage AI,Embeddings,Sim,https://www.voyageai.com/,https://dashboard.voyageai.com/,https://docs.voyageai.com/,voyage-3,Tokens grátis iniciais.
-jina,Jina AI,Embeddings,Sim,https://jina.ai/,https://jina.ai/api-dashboard/,https://jina.ai/embeddings/,jina-embeddings,Tokens grátis.
-zhipu,Zhipu GLM,Texto/Chat,Limitado,https://www.zhipuai.cn/,https://open.bigmodel.cn/,https://docs.bigmodel.cn/,GLM,Cotas grátis; console em chinês.
-moonshot,Moonshot Kimi,Texto/Chat,Limitado,https://www.moonshot.ai/,https://platform.moonshot.ai/console/api-keys,https://platform.moonshot.ai/docs,Kimi,Créditos iniciais.
-minimax,MiniMax,Multimodal,Limitado,https://www.minimax.io/,https://platform.minimaxi.com/,https://platform.minimax.io/docs,"Hailuo, MiniMax",Créditos de teste.
-volcengine,Volcengine Ark (ByteDance),Cloud,Limitado,https://www.volcengine.com/,https://console.volcengine.com/ark,https://www.volcengine.com/docs/82379,"Doubao, Seed",Console em chinês; cotas.
-tencent,Tencent Hunyuan,Texto/Chat,Limitado,https://cloud.tencent.com/,https://console.cloud.tencent.com/hunyuan,https://cloud.tencent.com/document/product/1729,Hunyuan,Cotas grátis; console em chinês.
-baidu,Baidu Qianfan,Cloud,Limitado,https://cloud.baidu.com/,https://console.bce.baidu.com/qianfan/,https://cloud.baidu.com/product/qianfan.html,ERNIE,Cotas grátis; console em chinês.
-github-models,GitHub Models,Cloud,Sim,https://github.com/features/models,https://github.com/settings/tokens,https://docs.github.com/en/github-models,"GPT, Llama, Phi",Grátis com rate limit usando PAT.
-cloudflare,Cloudflare Workers AI,Cloud,Sim,https://www.cloudflare.com/,https://dash.cloudflare.com/,https://developers.cloudflare.com/workers-ai/,"Llama, FLUX, Whisper",Cota grátis diária.
-ollama,Ollama,Local,Local,https://ollama.com/,,https://docs.ollama.com/,"Llama, Qwen, Gemma",Roda local; não precisa de API key.
-lmstudio,LM Studio,Local,Local,https://lmstudio.ai/,,https://lmstudio.ai/docs/app,Vários GGUF,Local; servidor compatível com OpenAI.
-vllm,vLLM,Local,Local,https://vllm.ai/,,https://docs.vllm.ai/,Qualquer modelo HF,Self-hosted; sem API key.
-opencode,OpenCode,Texto/Chat,Sim,https://opencode.ai/,https://opencode.ai/auth,https://opencode.ai/docs,Vários modelos,Gateway; alguns modelos grátis.
+id,nome,categoria,pais,gratis,site,criar_api,docs,modelos,obs
+openai,OpenAI,Texto/Chat,EUA,Não,https://openai.com/,https://platform.openai.com/api-keys,https://platform.openai.com/docs,"GPT-5.x, o-series",Pagamento por uso; sem free tier fixo.
+anthropic,Anthropic,Texto/Chat,EUA,Não,https://www.anthropic.com/,https://console.anthropic.com/settings/keys,https://docs.anthropic.com/,Claude,Créditos iniciais às vezes; uso pago.
+google-ai-studio,Google AI Studio,Multimodal,EUA,Sim,https://ai.google.dev/,https://aistudio.google.com/app/apikey,https://ai.google.dev/gemini-api/docs,Gemini,Free tier com limites; ótimo para começar.
+google-cloud,Google Cloud (Vertex AI),Cloud,EUA,Limitado,https://cloud.google.com/vertex-ai,https://console.cloud.google.com/apis/credentials,https://cloud.google.com/vertex-ai/docs,"Gemini, Imagen, Veo",Créditos de teste; requer projeto GCP.
+azure-openai,Azure OpenAI,Cloud,EUA,Limitado,https://azure.microsoft.com/products/ai-services/openai-service,https://portal.azure.com/,https://learn.microsoft.com/azure/ai-services/openai/,"GPT, DALL·E",Requer assinatura Azure e acesso aprovado.
+aws-bedrock,AWS Bedrock,Cloud,EUA,Limitado,https://aws.amazon.com/bedrock/,https://console.aws.amazon.com/bedrock/,https://docs.aws.amazon.com/bedrock/,"Claude, Llama, Titan",Pago por uso; requer conta AWS.
+mistral,Mistral AI,Texto/Chat,França,Sim,https://mistral.ai/,https://console.mistral.ai/api-keys,https://docs.mistral.ai/,"Mistral, Codestral",Free tier de experimentação.
+cohere,Cohere,Texto/Chat,Canadá,Sim,https://cohere.com/,https://dashboard.cohere.com/api-keys,https://docs.cohere.com/,"Command, Embed",Trial keys grátis com limite.
+groq,Groq,Texto/Chat,EUA,Sim,https://groq.com/,https://console.groq.com/keys,https://console.groq.com/docs,"Llama, Qwen, Whisper",Free tier generoso; inferência rápida.
+together,Together AI,Cloud,EUA,Limitado,https://www.together.ai/,https://api.together.ai/settings/api-keys,https://docs.together.ai/,"Llama, Qwen, FLUX",Créditos iniciais; depois pago.
+fireworks,Fireworks AI,Cloud,EUA,Limitado,https://fireworks.ai/,https://fireworks.ai/api-keys,https://docs.fireworks.ai/,"Llama, Qwen, FLUX",Créditos de teste.
+openrouter,OpenRouter,Texto/Chat,EUA,Sim,https://openrouter.ai/,https://openrouter.ai/settings/keys,https://openrouter.ai/docs,Vários (inclui :free),Modelos :free com custo zero; bom agregador.
+huggingface,Hugging Face,Cloud,EUA,Sim,https://huggingface.co/,https://huggingface.co/settings/tokens,https://huggingface.co/docs/api-inference,Milhares de modelos,Créditos mensais de Inference.
+nvidia-nim,NVIDIA NIM,Cloud,EUA,Sim,https://build.nvidia.com/,https://build.nvidia.com/,https://docs.nvidia.com/nim/,"Nemotron, Llama",Créditos grátis para experimentar.
+deepseek,DeepSeek,Texto/Chat,China,Não,https://www.deepseek.com/,https://platform.deepseek.com/api_keys,https://api-docs.deepseek.com/,DeepSeek V3/R,Barato; sem free tier fixo.
+alibaba,Alibaba Model Studio (Qwen),Texto/Chat,China,Limitado,https://www.alibabacloud.com/,https://modelstudio.console.alibabacloud.com/,https://www.alibabacloud.com/help/en/model-studio,Qwen,Cotas gratuitas por tempo limitado.
+xai,xAI,Texto/Chat,EUA,Limitado,https://x.ai/,https://console.x.ai/,https://docs.x.ai/,Grok,Créditos promocionais; depois pago.
+perplexity,Perplexity,Texto/Chat,EUA,Não,https://www.perplexity.ai/,https://www.perplexity.ai/settings/api,https://docs.perplexity.ai/,Sonar,Pago por uso.
+replicate,Replicate,Cloud,EUA,Limitado,https://replicate.com/,https://replicate.com/account/api-tokens,https://replicate.com/docs,"FLUX, Whisper, vídeo",Paga por segundo; créditos iniciais.
+stability,Stability AI,Imagem,Reino Unido,Limitado,https://stability.ai/,https://platform.stability.ai/account/keys,https://platform.stability.ai/docs,"SDXL, Stable Diffusion 3.5",Créditos grátis iniciais.
+elevenlabs,ElevenLabs,Áudio/Voz,EUA,Sim,https://elevenlabs.io/,https://elevenlabs.io/app/settings/api-keys,https://elevenlabs.io/docs,"TTS, clonagem",Free tier mensal com limite.
+deepgram,Deepgram,Áudio/Voz,EUA,Sim,https://deepgram.com/,https://console.deepgram.com/,https://developers.deepgram.com/,STT/TTS,Crédito grátis inicial.
+assemblyai,AssemblyAI,Áudio/Voz,EUA,Sim,https://www.assemblyai.com/,https://www.assemblyai.com/dashboard/api-keys,https://www.assemblyai.com/docs,Transcrição,Créditos grátis.
+cerebras,Cerebras,Texto/Chat,EUA,Sim,https://www.cerebras.ai/,https://cloud.cerebras.ai/,https://inference-docs.cerebras.ai/,"Llama, Qwen",Free tier com limite.
+sambanova,SambaNova,Texto/Chat,EUA,Sim,https://sambanova.ai/,https://cloud.sambanova.ai/apis,https://docs.sambanova.ai/,"Llama, DeepSeek",Free tier com limite.
+ai21,AI21 Labs,Texto/Chat,Israel,Limitado,https://www.ai21.com/,https://studio.ai21.com/account/api-key,https://docs.ai21.com/,Jamba,Créditos de teste.
+voyage,Voyage AI,Embeddings,EUA,Sim,https://www.voyageai.com/,https://dashboard.voyageai.com/,https://docs.voyageai.com/,voyage-3,Tokens grátis iniciais.
+jina,Jina AI,Embeddings,Alemanha,Sim,https://jina.ai/,https://jina.ai/api-dashboard/,https://jina.ai/embeddings/,jina-embeddings,Tokens grátis.
+zhipu,Zhipu GLM,Texto/Chat,China,Limitado,https://www.zhipuai.cn/,https://open.bigmodel.cn/,https://docs.bigmodel.cn/,GLM,Cotas grátis; console em chinês.
+moonshot,Moonshot Kimi,Texto/Chat,China,Limitado,https://www.moonshot.ai/,https://platform.moonshot.ai/console/api-keys,https://platform.moonshot.ai/docs,Kimi,Créditos iniciais.
+minimax,MiniMax,Multimodal,China,Limitado,https://www.minimax.io/,https://platform.minimaxi.com/,https://platform.minimax.io/docs,"Hailuo, MiniMax",Créditos de teste.
+volcengine,Volcengine Ark (ByteDance),Cloud,China,Limitado,https://www.volcengine.com/,https://console.volcengine.com/ark,https://www.volcengine.com/docs/82379,"Doubao, Seed",Console em chinês; cotas.
+tencent,Tencent Hunyuan,Texto/Chat,China,Limitado,https://cloud.tencent.com/,https://console.cloud.tencent.com/hunyuan,https://cloud.tencent.com/document/product/1729,Hunyuan,Cotas grátis; console em chinês.
+baidu,Baidu Qianfan,Cloud,China,Limitado,https://cloud.baidu.com/,https://console.bce.baidu.com/qianfan/,https://cloud.baidu.com/product/qianfan.html,ERNIE,Cotas grátis; console em chinês.
+github-models,GitHub Models,Cloud,EUA,Sim,https://github.com/features/models,https://github.com/settings/tokens,https://docs.github.com/en/github-models,"GPT, Llama, Phi",Grátis com rate limit usando PAT.
+cloudflare,Cloudflare Workers AI,Cloud,EUA,Sim,https://www.cloudflare.com/,https://dash.cloudflare.com/,https://developers.cloudflare.com/workers-ai/,"Llama, FLUX, Whisper",Cota grátis diária.
+ollama,Ollama,Local,EUA,Local,https://ollama.com/,,https://docs.ollama.com/,"Llama, Qwen, Gemma",Roda local; não precisa de API key.
+lmstudio,LM Studio,Local,EUA,Local,https://lmstudio.ai/,,https://lmstudio.ai/docs/app,Vários GGUF,Local; servidor compatível com OpenAI.
+vllm,vLLM,Local,EUA,Local,https://vllm.ai/,,https://docs.vllm.ai/,Qualquer modelo HF,Self-hosted; sem API key.
+opencode,OpenCode,Texto/Chat,EUA,Sim,https://opencode.ai/,https://opencode.ai/auth,https://opencode.ai/docs,Vários modelos,Gateway; alguns modelos grátis.
+deepinfra,DeepInfra,Inferência,EUA,Limitado,https://deepinfra.com/,https://deepinfra.com/dash/api_keys,https://deepinfra.com/docs,"Llama, Qwen, FLUX",Paga por uso; modelos abertos hospedados.
+novita,Novita AI,Inferência,EUA,Limitado,https://novita.ai/,https://novita.ai/settings/key-management,https://novita.ai/docs,"Llama, SDXL, vídeo",Créditos iniciais; depois pago.
+hyperbolic,Hyperbolic,Inferência,EUA,Limitado,https://hyperbolic.xyz/,https://app.hyperbolic.xyz/settings,https://docs.hyperbolic.xyz/,"Llama, Qwen, SDXL",Créditos de teste.
+fal,fal.ai,Inferência,EUA,Limitado,https://fal.ai/,https://fal.ai/dashboard/keys,https://docs.fal.ai/,"FLUX, vídeo, áudio",Paga por uso; créditos iniciais.
+modal,Modal,Inferência,EUA,Limitado,https://modal.com/,https://modal.com/settings/tokens,https://modal.com/docs,Serverless GPU,Créditos mensais limitados.
+baseten,Baseten,Inferência,EUA,Limitado,https://www.baseten.co/,https://app.baseten.co/settings/api_keys,https://docs.baseten.co/,Modelos próprios,Paga por uso.
+runpod,RunPod,Inferência,EUA,Limitado,https://www.runpod.io/,https://www.runpod.io/console/user/settings,https://docs.runpod.io/,GPU/serverless,Paga por uso; créditos iniciais.
+anyscale,Anyscale,Inferência,EUA,Limitado,https://www.anyscale.com/,https://console.anyscale.com/credentials,https://docs.anyscale.com/,"Llama, Mistral",Paga por uso.
+requesty,Requesty,Inferência,Reino Unido,Sim,https://www.requesty.ai/,https://app.requesty.ai/,https://docs.requesty.ai/quickstart,Router multi-modelo,Free tier com créditos.
+portkey,Portkey,Inferência,EUA,Sim,https://portkey.ai/,https://app.portkey.ai/,https://portkey.ai/docs,Gateway/observabilidade,Free tier para devs.
+helicone,Helicone,Inferência,EUA,Sim,https://www.helicone.ai/,https://us.helicone.ai/settings/api-keys,https://docs.helicone.ai/,Gateway/observabilidade,Free tier generoso.
+eden,Eden AI,Inferência,França,Sim,https://www.edenai.co/,https://app.edenai.run/,https://docs.edenai.co/,Vários provedores,Créditos grátis iniciais.
+aimlapi,AI/ML API,Inferência,EUA,Limitado,https://aimlapi.com/,https://aimlapi.com/app/keys,https://docs.aimlapi.com/,Vários modelos,Créditos de teste.
+cometapi,CometAPI,Inferência,Hong Kong,Limitado,https://www.cometapi.com/,https://www.cometapi.com/,https://apidoc.cometapi.com/,Vários modelos,Créditos de teste.
+ibm,IBM watsonx,Cloud,EUA,Limitado,https://www.ibm.com/watsonx,https://cloud.ibm.com/iam/apikeys,https://www.ibm.com/docs/en/watsonx,"Granite, Llama",Créditos de teste; requer IBM Cloud.
+oracle,Oracle OCI,Cloud,EUA,Limitado,https://www.oracle.com/artificial-intelligence/,https://cloud.oracle.com/identity/domains/my-profile/api-keys,https://docs.oracle.com/en-us/iaas/,"Cohere, Llama, Gemini",Pago por uso; free tier OCI.
+databricks,Databricks,Cloud,EUA,Limitado,https://www.databricks.com/,https://accounts.cloud.databricks.com/,https://docs.databricks.com/,"DBRX, modelos",Pago; trial disponível.
+snowflake,Snowflake Cortex,Cloud,EUA,Limitado,https://www.snowflake.com/,https://app.snowflake.com/,https://docs.snowflake.com/,LLMs no data warehouse,Pago; trial disponível.
+huawei,Huawei Cloud,Cloud,China,Limitado,https://www.huaweicloud.com/,https://console.huaweicloud.com/iam/,https://support.huaweicloud.com/,Pangu,Cotas; console em chinês.
+iflytek,iFlytek Spark,Cloud,China,Limitado,https://www.iflytek.com/,https://console.xfyun.cn/,https://www.xfyun.cn/doc/,Spark,Cotas grátis; console em chinês.
+baichuan,Baichuan AI,Cloud,China,Limitado,https://www.baichuan-ai.com/,https://platform.baichuan-ai.com/console/apikey,https://platform.baichuan-ai.com/docs,Baichuan,Cotas; console em chinês.
+yi,01.AI (Yi),Cloud,China,Limitado,https://www.01.ai/,https://platform.01.ai/,https://platform.01.ai/docs,Yi,Créditos de teste.
+stepfun,StepFun,Cloud,China,Limitado,https://www.stepfun.com/,https://platform.stepfun.com/,https://platform.stepfun.com/docs,Step,Cotas; console em chinês.
+naver,Naver Cloud,Cloud,Coreia do Sul,Limitado,https://www.ncloud.com/,https://www.ncloud.com/,https://guide.ncloud-docs.com/,HyperCLOVA X,Cotas; console em coreano.
+upstage,Upstage,Cloud,Coreia do Sul,Limitado,https://www.upstage.ai/,https://console.upstage.ai/api-keys,https://developers.upstage.ai/,Solar,Créditos de teste.
+sarvam,Sarvam AI,Cloud,Índia,Limitado,https://www.sarvam.ai/,https://dashboard.sarvam.ai/,https://docs.sarvam.ai/,Indic LLMs/STT,Créditos de teste.
+yandex,Yandex AI Studio,Cloud,Rússia,Limitado,https://yandex.cloud/en/products/ai-studio,https://console.yandex.cloud/,https://yandex.cloud/en/docs/ai-studio/,YandexGPT,Créditos de teste.
+gigachat,GigaChat (Sber),Texto/Chat,Rússia,Limitado,https://giga.chat/,https://developers.sber.ru/portal/products/gigachat-api,https://developers.sber.ru/docs/,GigaChat,Cotas; console em russo.
+aleph,Aleph Alpha,Texto/Chat,Alemanha,Limitado,https://aleph-alpha.com/,https://aleph-alpha.com/signup-kolibri-api/,https://docs.aleph-alpha.com/,Luminous,Créditos de teste.
+contextual,Contextual AI,Texto/Chat,EUA,Limitado,https://contextual.ai/,https://contextual.ai/platform,https://docs.contextual.ai/,RAG/LLM,Créditos de teste.
+writer,Writer,Texto/Chat,EUA,Limitado,https://writer.com/,https://app.writer.com/,https://dev.writer.com/,Palmyra,Trial disponível.
+reka,Reka AI,Texto/Chat,EUA,Limitado,https://www.reka.ai/,https://platform.reka.ai/,https://docs.reka.ai/,Reka,Créditos de teste.
+nous,Nous Research,Texto/Chat,EUA,Limitado,https://nousresearch.com/,https://portal.nousresearch.com/,https://nousresearch.com/,Hermes,Créditos de teste.
+meta-llama,Meta Llama API,Texto/Chat,EUA,Limitado,https://www.llama.com/,https://llama.developer.meta.com/,https://dev.meta.ai/docs/overview,Llama,API oficial em preview.
+bfl,Black Forest Labs (FLUX),Imagem,Alemanha,Limitado,https://bfl.ai/,https://api.bfl.ai/,https://docs.bfl.ai/,FLUX,Créditos de teste.
+ideogram,Ideogram,Imagem,Canadá,Limitado,https://ideogram.ai/,https://ideogram.ai/manage/api-keys,https://developer.ideogram.ai/,Ideogram,Créditos de teste.
+recraft,Recraft,Imagem,EUA,Limitado,https://www.recraft.ai/,https://www.recraft.ai/profile/api,https://www.recraft.ai/docs,Recraft V3,Créditos de teste.
+leonardo,Leonardo AI,Imagem,Austrália,Limitado,https://leonardo.ai/,https://app.leonardo.ai/settings/api-keys,https://docs.leonardo.ai/,Phoenix,Créditos diários grátis.
+adobe,Adobe Firefly,Imagem,EUA,Limitado,https://www.adobe.com/products/firefly.html,https://developer.adobe.com/,https://developer.adobe.com/firefly-services/docs/,Firefly,Requer conta Adobe; créditos.
+clipdrop,Clipdrop,Imagem,França,Limitado,https://clipdrop.co/,https://clipdrop.co/apis,https://clipdrop.co/apis/docs,"SDXL, remoção de fundo",Créditos de teste.
+bria,Bria AI,Imagem,Israel,Limitado,https://bria.ai/,https://platform.bria.ai/,https://docs.bria.ai/,Imagem licenciada,Créditos de teste.
+photoroom,Photoroom,Imagem,França,Limitado,https://www.photoroom.com/,https://www.photoroom.com/api,https://docs.photoroom.com/,Edição de produto,Créditos de teste.
+removebg,remove.bg,Imagem,Áustria,Sim,https://www.remove.bg/,https://www.remove.bg/api,https://www.remove.bg/api,Remoção de fundo,50 imagens grátis/mês.
+shutterstock,Shutterstock,Imagem,EUA,Limitado,https://www.shutterstock.com/,https://developers.shutterstock.com/,https://developers.shutterstock.com/documentation,Banco de imagens/geração,Créditos de teste.
+runway,Runway,Vídeo,EUA,Limitado,https://runwayml.com/,https://dev.runwayml.com/,https://docs.dev.runwayml.com/,Gen-4,Créditos de teste.
+luma,Luma AI,Vídeo,EUA,Limitado,https://lumalabs.ai/,https://lumalabs.ai/api,https://docs.lumalabs.ai/,Dream Machine,Créditos de teste.
+kling,Kling AI,Vídeo,China,Limitado,https://klingai.com/,https://app.klingai.com/global/dev,https://docs.qingque.cn/,Kling,Créditos diários; API paga.
+vidu,Vidu,Vídeo,China,Limitado,https://www.vidu.com/,https://platform.vidu.com/,https://platform.vidu.com/docs,Vidu,Créditos de teste.
+heygen,HeyGen,Vídeo,EUA,Limitado,https://www.heygen.com/,https://app.heygen.com/settings/api,https://docs.heygen.com/,Avatares,Free tier com limite.
+synthesia,Synthesia,Vídeo,Reino Unido,Limitado,https://www.synthesia.io/,https://app.synthesia.io/#/settings/api,https://docs.synthesia.io/,Avatares,Trial disponível.
+did,D-ID,Vídeo,Israel,Limitado,https://www.d-id.com/,https://studio.d-id.com/,https://docs.d-id.com/,Avatares,Trial disponível.
+tavus,Tavus,Vídeo,EUA,Limitado,https://www.tavus.io/,https://platform.tavus.io/api-keys,https://docs.tavus.io/,Avatares interativos,Créditos de teste.
+twelvelabs,TwelveLabs,Vídeo,EUA,Limitado,https://www.twelvelabs.io/,https://playground.twelvelabs.io/,https://docs.twelvelabs.io/,Entendimento de vídeo,Créditos de teste.
+shotstack,Shotstack,Vídeo,Austrália,Limitado,https://shotstack.io/,https://dashboard.shotstack.io/,https://shotstack.io/docs/,Edição de vídeo,Free tier com marca d'água.
+cartesia,Cartesia,Áudio/Voz,EUA,Sim,https://cartesia.ai/,https://play.cartesia.ai/,https://docs.cartesia.ai/,Sonic TTS,Free tier com limite.
+hume,Hume AI,Áudio/Voz,EUA,Sim,https://www.hume.ai/,https://platform.hume.ai/,https://dev.hume.ai/,EVI/TTS,Créditos grátis mensais.
+speechmatics,Speechmatics,Áudio/Voz,Reino Unido,Sim,https://www.speechmatics.com/,https://portal.speechmatics.com/,https://docs.speechmatics.com/,STT,8h grátis/mês.
+revai,Rev AI,Áudio/Voz,EUA,Sim,https://www.rev.ai/,https://www.rev.ai/access-token,https://www.rev.ai/docs,Transcrição,Créditos grátis.
+soniox,Soniox,Áudio/Voz,EUA,Sim,https://soniox.com/,https://console.soniox.com/,https://soniox.com/docs/,STT/TTS,Créditos grátis.
+gladia,Gladia,Áudio/Voz,França,Sim,https://www.gladia.io/,https://app.gladia.io/,https://docs.gladia.io/,STT,10h grátis/mês.
+resemble,Resemble AI,Áudio/Voz,Canadá,Limitado,https://www.resemble.ai/,https://app.resemble.ai/,https://docs.resemble.ai/,TTS/clonagem,Créditos de teste.
+lmnt,LMNT,Áudio/Voz,EUA,Limitado,https://www.lmnt.com/,https://www.lmnt.com/,https://docs.lmnt.com/,TTS,Créditos de teste.
+rime,Rime AI,Áudio/Voz,EUA,Limitado,https://www.rime.ai/,https://app.rime.ai/,https://docs.rime.ai/,TTS,Créditos de teste.
+exa,Exa,Busca/RAG,EUA,Sim,https://exa.ai/,https://dashboard.exa.ai/api-keys,https://docs.exa.ai/,Busca semântica,Créditos grátis.
+tavily,Tavily,Busca/RAG,EUA,Sim,https://tavily.com/,https://app.tavily.com/home,https://docs.tavily.com/,Busca para LLMs,1000 créditos/mês grátis.
+brave-search,Brave Search API,Busca/RAG,EUA,Sim,https://brave.com/search/api/,https://api.search.brave.com/app/keys,https://api.search.brave.com/app/documentation,Busca web,Plano grátis com limite.
+serper,Serper,Busca/RAG,EUA,Sim,https://serper.dev/,https://serper.dev/dashboard,https://serper.dev/playground,Busca Google,2500 consultas grátis.
+firecrawl,Firecrawl,Busca/RAG,EUA,Sim,https://www.firecrawl.dev/,https://www.firecrawl.dev/app/api-keys,https://docs.firecrawl.dev/,Crawl/scrape,Créditos grátis.
+apify,Apify,Busca/RAG,República Tcheca,Sim,https://apify.com/,https://console.apify.com/account/integrations,https://docs.apify.com/,Scraping/atores,$5 grátis/mês.
+unstructured,Unstructured,OCR/Documentos,EUA,Sim,https://unstructured.io/,https://app.unstructured.io/,https://docs.unstructured.io/,Parsing de documentos,Créditos grátis.
+llamaparse,LlamaParse,OCR/Documentos,EUA,Sim,https://www.llamaindex.ai/,https://cloud.llamaindex.ai/,https://docs.cloud.llamaindex.ai/,Parsing para RAG,Créditos grátis.
+meshy,Meshy,3D,EUA,Limitado,https://www.meshy.ai/,https://www.meshy.ai/api,https://docs.meshy.ai/,Texto/imagem → 3D,Créditos grátis.
+tripo,Tripo AI,3D,China,Limitado,https://www.tripo3d.ai/,https://platform.tripo3d.ai/,https://docs.tripo3d.ai/,Texto/imagem → 3D,Créditos de teste.
+deepl,DeepL,Tradução,Alemanha,Sim,https://www.deepl.com/,https://www.deepl.com/pro-api,https://developers.deepl.com/docs,Tradução,500k caracteres grátis/mês.
+nomic,Nomic AI,Embeddings,EUA,Sim,https://www.nomic.ai/,https://atlas.nomic.ai/,https://docs.nomic.ai/,Nomic Embed,Créditos grátis.
+mixedbread,Mixedbread,Embeddings,Alemanha,Sim,https://www.mixedbread.com/,https://www.platform.mixedbread.com/,https://www.mixedbread.com/docs,Embeddings/rerank,Créditos grátis.
+llama-cpp,llama.cpp,Local,Global,Local,https://github.com/ggml-org/llama.cpp,,https://github.com/ggml-org/llama.cpp/tree/master/tools/server,GGUF local,Roda local; sem API key.
+jan,Jan,Local,EUA,Local,https://jan.ai/,,https://jan.ai/docs,GGUF local,Roda local; sem API key.
+gpt4all,GPT4All,Local,EUA,Local,https://www.nomic.ai/gpt4all,,https://docs.gpt4all.io/,GGUF local,Roda local; sem API key.
+localai,LocalAI,Local,Itália,Local,https://localai.io/,,https://localai.io/docs/,API OpenAI-compatível,Self-hosted; sem API key.
+libretranslate,LibreTranslate,Tradução,Global,Local,https://libretranslate.com/,,https://docs.libretranslate.com/,Tradução local,Self-hosted; sem API key.
+comfyui,ComfyUI,Local,EUA,Local,https://www.comfy.org/,,https://docs.comfy.org/,Imagem/vídeo local,Roda local; sem API key.
