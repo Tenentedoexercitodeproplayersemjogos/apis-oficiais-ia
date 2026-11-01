@@ -1,8 +1,8 @@
 {
- "checked_at": "2026-11-01T22:26:30Z",
+ "checked_at": "2026-11-01T22:30:34Z",
  "resumo": {
-  "ok": 110,
-  "protegido": 7,
+  "ok": 108,
+  "protegido": 9,
   "erro": 0,
   "sem-chave": 3
  },
@@ -354,8 +354,8 @@
     "status": "ok"
    },
    "docs": {
-    "code": 200,
-    "status": "ok"
+    "code": 403,
+    "status": "protegido"
    }
   },
   "ai21": {
@@ -504,8 +504,8 @@
     "status": "ok"
    },
    "chave": {
-    "code": 200,
-    "status": "ok"
+    "code": 403,
+    "status": "protegido"
    },
    "docs": {
     "code": 200,
