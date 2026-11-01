@@ -1,0 +1,41 @@
+name: Atualizar links
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'   # toda segunda, 07:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-links
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Gerar README e CSV
+        run: python scripts/gen_readme.py
+
+      - name: Verificar links oficiais
+        run: python scripts/check_links.py
+
+      - name: Commitar mudancas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md apis.csv status.json
+          if git diff --staged --quiet; then
+            echo "Sem mudancas."
+          else
+            git commit -m "chore: atualiza links e verificacao"
+            git push
+          fi
