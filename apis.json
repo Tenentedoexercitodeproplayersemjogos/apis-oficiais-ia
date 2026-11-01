@@ -8,7 +8,8 @@
   "chave": "https://platform.openai.com/api-keys",
   "docs": "https://platform.openai.com/docs",
   "modelos": "GPT-5.x, o-series",
-  "obs": "Pagamento por uso; sem free tier fixo."
+  "obs": "Pagamento por uso; sem free tier fixo.",
+  "pais": "EUA"
  },
  {
   "id": "anthropic",
@@ -19,7 +20,8 @@
   "chave": "https://console.anthropic.com/settings/keys",
   "docs": "https://docs.anthropic.com/",
   "modelos": "Claude",
-  "obs": "Créditos iniciais às vezes; uso pago."
+  "obs": "Créditos iniciais às vezes; uso pago.",
+  "pais": "EUA"
  },
  {
   "id": "google-ai-studio",
@@ -30,7 +32,8 @@
   "chave": "https://aistudio.google.com/app/apikey",
   "docs": "https://ai.google.dev/gemini-api/docs",
   "modelos": "Gemini",
-  "obs": "Free tier com limites; ótimo para começar."
+  "obs": "Free tier com limites; ótimo para começar.",
+  "pais": "EUA"
  },
  {
   "id": "google-cloud",
@@ -41,7 +44,8 @@
   "chave": "https://console.cloud.google.com/apis/credentials",
   "docs": "https://cloud.google.com/vertex-ai/docs",
   "modelos": "Gemini, Imagen, Veo",
-  "obs": "Créditos de teste; requer projeto GCP."
+  "obs": "Créditos de teste; requer projeto GCP.",
+  "pais": "EUA"
  },
  {
   "id": "azure-openai",
@@ -52,7 +56,8 @@
   "chave": "https://portal.azure.com/",
   "docs": "https://learn.microsoft.com/azure/ai-services/openai/",
   "modelos": "GPT, DALL·E",
-  "obs": "Requer assinatura Azure e acesso aprovado."
+  "obs": "Requer assinatura Azure e acesso aprovado.",
+  "pais": "EUA"
  },
  {
   "id": "aws-bedrock",
@@ -63,7 +68,8 @@
   "chave": "https://console.aws.amazon.com/bedrock/",
   "docs": "https://docs.aws.amazon.com/bedrock/",
   "modelos": "Claude, Llama, Titan",
-  "obs": "Pago por uso; requer conta AWS."
+  "obs": "Pago por uso; requer conta AWS.",
+  "pais": "EUA"
  },
  {
   "id": "mistral",
@@ -74,7 +80,8 @@
   "chave": "https://console.mistral.ai/api-keys",
   "docs": "https://docs.mistral.ai/",
   "modelos": "Mistral, Codestral",
-  "obs": "Free tier de experimentação."
+  "obs": "Free tier de experimentação.",
+  "pais": "França"
  },
  {
   "id": "cohere",
@@ -85,7 +92,8 @@
   "chave": "https://dashboard.cohere.com/api-keys",
   "docs": "https://docs.cohere.com/",
   "modelos": "Command, Embed",
-  "obs": "Trial keys grátis com limite."
+  "obs": "Trial keys grátis com limite.",
+  "pais": "Canadá"
  },
  {
   "id": "groq",
@@ -96,7 +104,8 @@
   "chave": "https://console.groq.com/keys",
   "docs": "https://console.groq.com/docs",
   "modelos": "Llama, Qwen, Whisper",
-  "obs": "Free tier generoso; inferência rápida."
+  "obs": "Free tier generoso; inferência rápida.",
+  "pais": "EUA"
  },
  {
   "id": "together",
@@ -107,7 +116,8 @@
   "chave": "https://api.together.ai/settings/api-keys",
   "docs": "https://docs.together.ai/",
   "modelos": "Llama, Qwen, FLUX",
-  "obs": "Créditos iniciais; depois pago."
+  "obs": "Créditos iniciais; depois pago.",
+  "pais": "EUA"
  },
  {
   "id": "fireworks",
@@ -118,7 +128,8 @@
   "chave": "https://fireworks.ai/api-keys",
   "docs": "https://docs.fireworks.ai/",
   "modelos": "Llama, Qwen, FLUX",
-  "obs": "Créditos de teste."
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
  },
  {
   "id": "openrouter",
@@ -129,7 +140,8 @@
   "chave": "https://openrouter.ai/settings/keys",
   "docs": "https://openrouter.ai/docs",
   "modelos": "Vários (inclui :free)",
-  "obs": "Modelos :free com custo zero; bom agregador."
+  "obs": "Modelos :free com custo zero; bom agregador.",
+  "pais": "EUA"
  },
  {
   "id": "huggingface",
@@ -140,7 +152,8 @@
   "chave": "https://huggingface.co/settings/tokens",
   "docs": "https://huggingface.co/docs/api-inference",
   "modelos": "Milhares de modelos",
-  "obs": "Créditos mensais de Inference."
+  "obs": "Créditos mensais de Inference.",
+  "pais": "EUA"
  },
  {
   "id": "nvidia-nim",
@@ -151,7 +164,8 @@
   "chave": "https://build.nvidia.com/",
   "docs": "https://docs.nvidia.com/nim/",
   "modelos": "Nemotron, Llama",
-  "obs": "Créditos grátis para experimentar."
+  "obs": "Créditos grátis para experimentar.",
+  "pais": "EUA"
  },
  {
   "id": "deepseek",
@@ -162,7 +176,8 @@
   "chave": "https://platform.deepseek.com/api_keys",
   "docs": "https://api-docs.deepseek.com/",
   "modelos": "DeepSeek V3/R",
-  "obs": "Barato; sem free tier fixo."
+  "obs": "Barato; sem free tier fixo.",
+  "pais": "China"
  },
  {
   "id": "alibaba",
@@ -173,7 +188,8 @@
   "chave": "https://modelstudio.console.alibabacloud.com/",
   "docs": "https://www.alibabacloud.com/help/en/model-studio",
   "modelos": "Qwen",
-  "obs": "Cotas gratuitas por tempo limitado."
+  "obs": "Cotas gratuitas por tempo limitado.",
+  "pais": "China"
  },
  {
   "id": "xai",
@@ -184,7 +200,8 @@
   "chave": "https://console.x.ai/",
   "docs": "https://docs.x.ai/",
   "modelos": "Grok",
-  "obs": "Créditos promocionais; depois pago."
+  "obs": "Créditos promocionais; depois pago.",
+  "pais": "EUA"
  },
  {
   "id": "perplexity",
@@ -195,7 +212,8 @@
   "chave": "https://www.perplexity.ai/settings/api",
   "docs": "https://docs.perplexity.ai/",
   "modelos": "Sonar",
-  "obs": "Pago por uso."
+  "obs": "Pago por uso.",
+  "pais": "EUA"
  },
  {
   "id": "replicate",
@@ -206,7 +224,8 @@
   "chave": "https://replicate.com/account/api-tokens",
   "docs": "https://replicate.com/docs",
   "modelos": "FLUX, Whisper, vídeo",
-  "obs": "Paga por segundo; créditos iniciais."
+  "obs": "Paga por segundo; créditos iniciais.",
+  "pais": "EUA"
  },
  {
   "id": "stability",
@@ -217,7 +236,8 @@
   "chave": "https://platform.stability.ai/account/keys",
   "docs": "https://platform.stability.ai/docs",
   "modelos": "SDXL, Stable Diffusion 3.5",
-  "obs": "Créditos grátis iniciais."
+  "obs": "Créditos grátis iniciais.",
+  "pais": "Reino Unido"
  },
  {
   "id": "elevenlabs",
@@ -228,7 +248,8 @@
   "chave": "https://elevenlabs.io/app/settings/api-keys",
   "docs": "https://elevenlabs.io/docs",
   "modelos": "TTS, clonagem",
-  "obs": "Free tier mensal com limite."
+  "obs": "Free tier mensal com limite.",
+  "pais": "EUA"
  },
  {
   "id": "deepgram",
@@ -239,7 +260,8 @@
   "chave": "https://console.deepgram.com/",
   "docs": "https://developers.deepgram.com/",
   "modelos": "STT/TTS",
-  "obs": "Crédito grátis inicial."
+  "obs": "Crédito grátis inicial.",
+  "pais": "EUA"
  },
  {
   "id": "assemblyai",
@@ -250,7 +272,8 @@
   "chave": "https://www.assemblyai.com/dashboard/api-keys",
   "docs": "https://www.assemblyai.com/docs",
   "modelos": "Transcrição",
-  "obs": "Créditos grátis."
+  "obs": "Créditos grátis.",
+  "pais": "EUA"
  },
  {
   "id": "cerebras",
@@ -261,7 +284,8 @@
   "chave": "https://cloud.cerebras.ai/",
   "docs": "https://inference-docs.cerebras.ai/",
   "modelos": "Llama, Qwen",
-  "obs": "Free tier com limite."
+  "obs": "Free tier com limite.",
+  "pais": "EUA"
  },
  {
   "id": "sambanova",
@@ -272,7 +296,8 @@
   "chave": "https://cloud.sambanova.ai/apis",
   "docs": "https://docs.sambanova.ai/",
   "modelos": "Llama, DeepSeek",
-  "obs": "Free tier com limite."
+  "obs": "Free tier com limite.",
+  "pais": "EUA"
  },
  {
   "id": "ai21",
@@ -283,7 +308,8 @@
   "chave": "https://studio.ai21.com/account/api-key",
   "docs": "https://docs.ai21.com/",
   "modelos": "Jamba",
-  "obs": "Créditos de teste."
+  "obs": "Créditos de teste.",
+  "pais": "Israel"
  },
  {
   "id": "voyage",
@@ -294,7 +320,8 @@
   "chave": "https://dashboard.voyageai.com/",
   "docs": "https://docs.voyageai.com/",
   "modelos": "voyage-3",
-  "obs": "Tokens grátis iniciais."
+  "obs": "Tokens grátis iniciais.",
+  "pais": "EUA"
  },
  {
   "id": "jina",
@@ -305,7 +332,8 @@
   "chave": "https://jina.ai/api-dashboard/",
   "docs": "https://jina.ai/embeddings/",
   "modelos": "jina-embeddings",
-  "obs": "Tokens grátis."
+  "obs": "Tokens grátis.",
+  "pais": "Alemanha"
  },
  {
   "id": "zhipu",
@@ -316,7 +344,8 @@
   "chave": "https://open.bigmodel.cn/",
   "docs": "https://docs.bigmodel.cn/",
   "modelos": "GLM",
-  "obs": "Cotas grátis; console em chinês."
+  "obs": "Cotas grátis; console em chinês.",
+  "pais": "China"
  },
  {
   "id": "moonshot",
@@ -327,7 +356,8 @@
   "chave": "https://platform.moonshot.ai/console/api-keys",
   "docs": "https://platform.moonshot.ai/docs",
   "modelos": "Kimi",
-  "obs": "Créditos iniciais."
+  "obs": "Créditos iniciais.",
+  "pais": "China"
  },
  {
   "id": "minimax",
@@ -338,7 +368,8 @@
   "chave": "https://platform.minimaxi.com/",
   "docs": "https://platform.minimax.io/docs",
   "modelos": "Hailuo, MiniMax",
-  "obs": "Créditos de teste."
+  "obs": "Créditos de teste.",
+  "pais": "China"
  },
  {
   "id": "volcengine",
@@ -349,7 +380,8 @@
   "chave": "https://console.volcengine.com/ark",
   "docs": "https://www.volcengine.com/docs/82379",
   "modelos": "Doubao, Seed",
-  "obs": "Console em chinês; cotas."
+  "obs": "Console em chinês; cotas.",
+  "pais": "China"
  },
  {
   "id": "tencent",
@@ -360,7 +392,8 @@
   "chave": "https://console.cloud.tencent.com/hunyuan",
   "docs": "https://cloud.tencent.com/document/product/1729",
   "modelos": "Hunyuan",
-  "obs": "Cotas grátis; console em chinês."
+  "obs": "Cotas grátis; console em chinês.",
+  "pais": "China"
  },
  {
   "id": "baidu",
@@ -371,7 +404,8 @@
   "chave": "https://console.bce.baidu.com/qianfan/",
   "docs": "https://cloud.baidu.com/product/qianfan.html",
   "modelos": "ERNIE",
-  "obs": "Cotas grátis; console em chinês."
+  "obs": "Cotas grátis; console em chinês.",
+  "pais": "China"
  },
  {
   "id": "github-models",
@@ -382,7 +416,8 @@
   "chave": "https://github.com/settings/tokens",
   "docs": "https://docs.github.com/en/github-models",
   "modelos": "GPT, Llama, Phi",
-  "obs": "Grátis com rate limit usando PAT."
+  "obs": "Grátis com rate limit usando PAT.",
+  "pais": "EUA"
  },
  {
   "id": "cloudflare",
@@ -393,7 +428,8 @@
   "chave": "https://dash.cloudflare.com/",
   "docs": "https://developers.cloudflare.com/workers-ai/",
   "modelos": "Llama, FLUX, Whisper",
-  "obs": "Cota grátis diária."
+  "obs": "Cota grátis diária.",
+  "pais": "EUA"
  },
  {
   "id": "ollama",
@@ -404,7 +440,8 @@
   "chave": "",
   "docs": "https://docs.ollama.com/",
   "modelos": "Llama, Qwen, Gemma",
-  "obs": "Roda local; não precisa de API key."
+  "obs": "Roda local; não precisa de API key.",
+  "pais": "EUA"
  },
  {
   "id": "lmstudio",
@@ -415,7 +452,8 @@
   "chave": "",
   "docs": "https://lmstudio.ai/docs/app",
   "modelos": "Vários GGUF",
-  "obs": "Local; servidor compatível com OpenAI."
+  "obs": "Local; servidor compatível com OpenAI.",
+  "pais": "EUA"
  },
  {
   "id": "vllm",
@@ -426,7 +464,8 @@
   "chave": "",
   "docs": "https://docs.vllm.ai/",
   "modelos": "Qualquer modelo HF",
-  "obs": "Self-hosted; sem API key."
+  "obs": "Self-hosted; sem API key.",
+  "pais": "EUA"
  },
  {
   "id": "opencode",
@@ -437,6 +476,991 @@
   "chave": "https://opencode.ai/auth",
   "docs": "https://opencode.ai/docs",
   "modelos": "Vários modelos",
-  "obs": "Gateway; alguns modelos grátis."
+  "obs": "Gateway; alguns modelos grátis.",
+  "pais": "EUA"
+ },
+ {
+  "id": "deepinfra",
+  "nome": "DeepInfra",
+  "categoria": "Inferência",
+  "gratis": "Limitado",
+  "site": "https://deepinfra.com/",
+  "chave": "https://deepinfra.com/dash/api_keys",
+  "docs": "https://deepinfra.com/docs",
+  "modelos": "Llama, Qwen, FLUX",
+  "obs": "Paga por uso; modelos abertos hospedados.",
+  "pais": "EUA"
+ },
+ {
+  "id": "novita",
+  "nome": "Novita AI",
+  "categoria": "Inferência",
+  "gratis": "Limitado",
+  "site": "https://novita.ai/",
+  "chave": "https://novita.ai/settings/key-management",
+  "docs": "https://novita.ai/docs",
+  "modelos": "Llama, SDXL, vídeo",
+  "obs": "Créditos iniciais; depois pago.",
+  "pais": "EUA"
+ },
+ {
+  "id": "hyperbolic",
+  "nome": "Hyperbolic",
+  "categoria": "Inferência",
+  "gratis": "Limitado",
+  "site": "https://hyperbolic.xyz/",
+  "chave": "https://app.hyperbolic.xyz/settings",
+  "docs": "https://docs.hyperbolic.xyz/",
+  "modelos": "Llama, Qwen, SDXL",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "fal",
+  "nome": "fal.ai",
+  "categoria": "Inferência",
+  "gratis": "Limitado",
+  "site": "https://fal.ai/",
+  "chave": "https://fal.ai/dashboard/keys",
+  "docs": "https://docs.fal.ai/",
+  "modelos": "FLUX, vídeo, áudio",
+  "obs": "Paga por uso; créditos iniciais.",
+  "pais": "EUA"
+ },
+ {
+  "id": "modal",
+  "nome": "Modal",
+  "categoria": "Inferência",
+  "gratis": "Limitado",
+  "site": "https://modal.com/",
+  "chave": "https://modal.com/settings/tokens",
+  "docs": "https://modal.com/docs",
+  "modelos": "Serverless GPU",
+  "obs": "Créditos mensais limitados.",
+  "pais": "EUA"
+ },
+ {
+  "id": "baseten",
+  "nome": "Baseten",
+  "categoria": "Inferência",
+  "gratis": "Limitado",
+  "site": "https://www.baseten.co/",
+  "chave": "https://app.baseten.co/settings/api_keys",
+  "docs": "https://docs.baseten.co/",
+  "modelos": "Modelos próprios",
+  "obs": "Paga por uso.",
+  "pais": "EUA"
+ },
+ {
+  "id": "runpod",
+  "nome": "RunPod",
+  "categoria": "Inferência",
+  "gratis": "Limitado",
+  "site": "https://www.runpod.io/",
+  "chave": "https://www.runpod.io/console/user/settings",
+  "docs": "https://docs.runpod.io/",
+  "modelos": "GPU/serverless",
+  "obs": "Paga por uso; créditos iniciais.",
+  "pais": "EUA"
+ },
+ {
+  "id": "anyscale",
+  "nome": "Anyscale",
+  "categoria": "Inferência",
+  "gratis": "Limitado",
+  "site": "https://www.anyscale.com/",
+  "chave": "https://console.anyscale.com/credentials",
+  "docs": "https://docs.anyscale.com/",
+  "modelos": "Llama, Mistral",
+  "obs": "Paga por uso.",
+  "pais": "EUA"
+ },
+ {
+  "id": "requesty",
+  "nome": "Requesty",
+  "categoria": "Inferência",
+  "gratis": "Sim",
+  "site": "https://www.requesty.ai/",
+  "chave": "https://app.requesty.ai/",
+  "docs": "https://docs.requesty.ai/quickstart",
+  "modelos": "Router multi-modelo",
+  "obs": "Free tier com créditos.",
+  "pais": "Reino Unido"
+ },
+ {
+  "id": "portkey",
+  "nome": "Portkey",
+  "categoria": "Inferência",
+  "gratis": "Sim",
+  "site": "https://portkey.ai/",
+  "chave": "https://app.portkey.ai/",
+  "docs": "https://portkey.ai/docs",
+  "modelos": "Gateway/observabilidade",
+  "obs": "Free tier para devs.",
+  "pais": "EUA"
+ },
+ {
+  "id": "helicone",
+  "nome": "Helicone",
+  "categoria": "Inferência",
+  "gratis": "Sim",
+  "site": "https://www.helicone.ai/",
+  "chave": "https://us.helicone.ai/settings/api-keys",
+  "docs": "https://docs.helicone.ai/",
+  "modelos": "Gateway/observabilidade",
+  "obs": "Free tier generoso.",
+  "pais": "EUA"
+ },
+ {
+  "id": "eden",
+  "nome": "Eden AI",
+  "categoria": "Inferência",
+  "gratis": "Sim",
+  "site": "https://www.edenai.co/",
+  "chave": "https://app.edenai.run/",
+  "docs": "https://docs.edenai.co/",
+  "modelos": "Vários provedores",
+  "obs": "Créditos grátis iniciais.",
+  "pais": "França"
+ },
+ {
+  "id": "aimlapi",
+  "nome": "AI/ML API",
+  "categoria": "Inferência",
+  "gratis": "Limitado",
+  "site": "https://aimlapi.com/",
+  "chave": "https://aimlapi.com/app/keys",
+  "docs": "https://docs.aimlapi.com/",
+  "modelos": "Vários modelos",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "cometapi",
+  "nome": "CometAPI",
+  "categoria": "Inferência",
+  "gratis": "Limitado",
+  "site": "https://www.cometapi.com/",
+  "chave": "https://www.cometapi.com/",
+  "docs": "https://apidoc.cometapi.com/",
+  "modelos": "Vários modelos",
+  "obs": "Créditos de teste.",
+  "pais": "Hong Kong"
+ },
+ {
+  "id": "ibm",
+  "nome": "IBM watsonx",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://www.ibm.com/watsonx",
+  "chave": "https://cloud.ibm.com/iam/apikeys",
+  "docs": "https://www.ibm.com/docs/en/watsonx",
+  "modelos": "Granite, Llama",
+  "obs": "Créditos de teste; requer IBM Cloud.",
+  "pais": "EUA"
+ },
+ {
+  "id": "oracle",
+  "nome": "Oracle OCI",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://www.oracle.com/artificial-intelligence/",
+  "chave": "https://cloud.oracle.com/identity/domains/my-profile/api-keys",
+  "docs": "https://docs.oracle.com/en-us/iaas/",
+  "modelos": "Cohere, Llama, Gemini",
+  "obs": "Pago por uso; free tier OCI.",
+  "pais": "EUA"
+ },
+ {
+  "id": "databricks",
+  "nome": "Databricks",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://www.databricks.com/",
+  "chave": "https://accounts.cloud.databricks.com/",
+  "docs": "https://docs.databricks.com/",
+  "modelos": "DBRX, modelos",
+  "obs": "Pago; trial disponível.",
+  "pais": "EUA"
+ },
+ {
+  "id": "snowflake",
+  "nome": "Snowflake Cortex",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://www.snowflake.com/",
+  "chave": "https://app.snowflake.com/",
+  "docs": "https://docs.snowflake.com/",
+  "modelos": "LLMs no data warehouse",
+  "obs": "Pago; trial disponível.",
+  "pais": "EUA"
+ },
+ {
+  "id": "huawei",
+  "nome": "Huawei Cloud",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://www.huaweicloud.com/",
+  "chave": "https://console.huaweicloud.com/iam/",
+  "docs": "https://support.huaweicloud.com/",
+  "modelos": "Pangu",
+  "obs": "Cotas; console em chinês.",
+  "pais": "China"
+ },
+ {
+  "id": "iflytek",
+  "nome": "iFlytek Spark",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://www.iflytek.com/",
+  "chave": "https://console.xfyun.cn/",
+  "docs": "https://www.xfyun.cn/doc/",
+  "modelos": "Spark",
+  "obs": "Cotas grátis; console em chinês.",
+  "pais": "China"
+ },
+ {
+  "id": "baichuan",
+  "nome": "Baichuan AI",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://www.baichuan-ai.com/",
+  "chave": "https://platform.baichuan-ai.com/console/apikey",
+  "docs": "https://platform.baichuan-ai.com/docs",
+  "modelos": "Baichuan",
+  "obs": "Cotas; console em chinês.",
+  "pais": "China"
+ },
+ {
+  "id": "yi",
+  "nome": "01.AI (Yi)",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://www.01.ai/",
+  "chave": "https://platform.01.ai/",
+  "docs": "https://platform.01.ai/docs",
+  "modelos": "Yi",
+  "obs": "Créditos de teste.",
+  "pais": "China"
+ },
+ {
+  "id": "stepfun",
+  "nome": "StepFun",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://www.stepfun.com/",
+  "chave": "https://platform.stepfun.com/",
+  "docs": "https://platform.stepfun.com/docs",
+  "modelos": "Step",
+  "obs": "Cotas; console em chinês.",
+  "pais": "China"
+ },
+ {
+  "id": "naver",
+  "nome": "Naver Cloud",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://www.ncloud.com/",
+  "chave": "https://www.ncloud.com/",
+  "docs": "https://guide.ncloud-docs.com/",
+  "modelos": "HyperCLOVA X",
+  "obs": "Cotas; console em coreano.",
+  "pais": "Coreia do Sul"
+ },
+ {
+  "id": "upstage",
+  "nome": "Upstage",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://www.upstage.ai/",
+  "chave": "https://console.upstage.ai/api-keys",
+  "docs": "https://developers.upstage.ai/",
+  "modelos": "Solar",
+  "obs": "Créditos de teste.",
+  "pais": "Coreia do Sul"
+ },
+ {
+  "id": "sarvam",
+  "nome": "Sarvam AI",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://www.sarvam.ai/",
+  "chave": "https://dashboard.sarvam.ai/",
+  "docs": "https://docs.sarvam.ai/",
+  "modelos": "Indic LLMs/STT",
+  "obs": "Créditos de teste.",
+  "pais": "Índia"
+ },
+ {
+  "id": "yandex",
+  "nome": "Yandex AI Studio",
+  "categoria": "Cloud",
+  "gratis": "Limitado",
+  "site": "https://yandex.cloud/en/products/ai-studio",
+  "chave": "https://console.yandex.cloud/",
+  "docs": "https://yandex.cloud/en/docs/ai-studio/",
+  "modelos": "YandexGPT",
+  "obs": "Créditos de teste.",
+  "pais": "Rússia"
+ },
+ {
+  "id": "gigachat",
+  "nome": "GigaChat (Sber)",
+  "categoria": "Texto/Chat",
+  "gratis": "Limitado",
+  "site": "https://giga.chat/",
+  "chave": "https://developers.sber.ru/portal/products/gigachat-api",
+  "docs": "https://developers.sber.ru/docs/",
+  "modelos": "GigaChat",
+  "obs": "Cotas; console em russo.",
+  "pais": "Rússia"
+ },
+ {
+  "id": "aleph",
+  "nome": "Aleph Alpha",
+  "categoria": "Texto/Chat",
+  "gratis": "Limitado",
+  "site": "https://aleph-alpha.com/",
+  "chave": "https://aleph-alpha.com/signup-kolibri-api/",
+  "docs": "https://docs.aleph-alpha.com/",
+  "modelos": "Luminous",
+  "obs": "Créditos de teste.",
+  "pais": "Alemanha"
+ },
+ {
+  "id": "contextual",
+  "nome": "Contextual AI",
+  "categoria": "Texto/Chat",
+  "gratis": "Limitado",
+  "site": "https://contextual.ai/",
+  "chave": "https://contextual.ai/platform",
+  "docs": "https://docs.contextual.ai/",
+  "modelos": "RAG/LLM",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "writer",
+  "nome": "Writer",
+  "categoria": "Texto/Chat",
+  "gratis": "Limitado",
+  "site": "https://writer.com/",
+  "chave": "https://app.writer.com/",
+  "docs": "https://dev.writer.com/",
+  "modelos": "Palmyra",
+  "obs": "Trial disponível.",
+  "pais": "EUA"
+ },
+ {
+  "id": "reka",
+  "nome": "Reka AI",
+  "categoria": "Texto/Chat",
+  "gratis": "Limitado",
+  "site": "https://www.reka.ai/",
+  "chave": "https://platform.reka.ai/",
+  "docs": "https://docs.reka.ai/",
+  "modelos": "Reka",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "nous",
+  "nome": "Nous Research",
+  "categoria": "Texto/Chat",
+  "gratis": "Limitado",
+  "site": "https://nousresearch.com/",
+  "chave": "https://portal.nousresearch.com/",
+  "docs": "https://nousresearch.com/",
+  "modelos": "Hermes",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "meta-llama",
+  "nome": "Meta Llama API",
+  "categoria": "Texto/Chat",
+  "gratis": "Limitado",
+  "site": "https://www.llama.com/",
+  "chave": "https://llama.developer.meta.com/",
+  "docs": "https://dev.meta.ai/docs/overview",
+  "modelos": "Llama",
+  "obs": "API oficial em preview.",
+  "pais": "EUA"
+ },
+ {
+  "id": "bfl",
+  "nome": "Black Forest Labs (FLUX)",
+  "categoria": "Imagem",
+  "gratis": "Limitado",
+  "site": "https://bfl.ai/",
+  "chave": "https://api.bfl.ai/",
+  "docs": "https://docs.bfl.ai/",
+  "modelos": "FLUX",
+  "obs": "Créditos de teste.",
+  "pais": "Alemanha"
+ },
+ {
+  "id": "ideogram",
+  "nome": "Ideogram",
+  "categoria": "Imagem",
+  "gratis": "Limitado",
+  "site": "https://ideogram.ai/",
+  "chave": "https://ideogram.ai/manage/api-keys",
+  "docs": "https://developer.ideogram.ai/",
+  "modelos": "Ideogram",
+  "obs": "Créditos de teste.",
+  "pais": "Canadá"
+ },
+ {
+  "id": "recraft",
+  "nome": "Recraft",
+  "categoria": "Imagem",
+  "gratis": "Limitado",
+  "site": "https://www.recraft.ai/",
+  "chave": "https://www.recraft.ai/profile/api",
+  "docs": "https://www.recraft.ai/docs",
+  "modelos": "Recraft V3",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "leonardo",
+  "nome": "Leonardo AI",
+  "categoria": "Imagem",
+  "gratis": "Limitado",
+  "site": "https://leonardo.ai/",
+  "chave": "https://app.leonardo.ai/settings/api-keys",
+  "docs": "https://docs.leonardo.ai/",
+  "modelos": "Phoenix",
+  "obs": "Créditos diários grátis.",
+  "pais": "Austrália"
+ },
+ {
+  "id": "adobe",
+  "nome": "Adobe Firefly",
+  "categoria": "Imagem",
+  "gratis": "Limitado",
+  "site": "https://www.adobe.com/products/firefly.html",
+  "chave": "https://developer.adobe.com/",
+  "docs": "https://developer.adobe.com/firefly-services/docs/",
+  "modelos": "Firefly",
+  "obs": "Requer conta Adobe; créditos.",
+  "pais": "EUA"
+ },
+ {
+  "id": "clipdrop",
+  "nome": "Clipdrop",
+  "categoria": "Imagem",
+  "gratis": "Limitado",
+  "site": "https://clipdrop.co/",
+  "chave": "https://clipdrop.co/apis",
+  "docs": "https://clipdrop.co/apis/docs",
+  "modelos": "SDXL, remoção de fundo",
+  "obs": "Créditos de teste.",
+  "pais": "França"
+ },
+ {
+  "id": "bria",
+  "nome": "Bria AI",
+  "categoria": "Imagem",
+  "gratis": "Limitado",
+  "site": "https://bria.ai/",
+  "chave": "https://platform.bria.ai/",
+  "docs": "https://docs.bria.ai/",
+  "modelos": "Imagem licenciada",
+  "obs": "Créditos de teste.",
+  "pais": "Israel"
+ },
+ {
+  "id": "photoroom",
+  "nome": "Photoroom",
+  "categoria": "Imagem",
+  "gratis": "Limitado",
+  "site": "https://www.photoroom.com/",
+  "chave": "https://www.photoroom.com/api",
+  "docs": "https://docs.photoroom.com/",
+  "modelos": "Edição de produto",
+  "obs": "Créditos de teste.",
+  "pais": "França"
+ },
+ {
+  "id": "removebg",
+  "nome": "remove.bg",
+  "categoria": "Imagem",
+  "gratis": "Sim",
+  "site": "https://www.remove.bg/",
+  "chave": "https://www.remove.bg/api",
+  "docs": "https://www.remove.bg/api",
+  "modelos": "Remoção de fundo",
+  "obs": "50 imagens grátis/mês.",
+  "pais": "Áustria"
+ },
+ {
+  "id": "shutterstock",
+  "nome": "Shutterstock",
+  "categoria": "Imagem",
+  "gratis": "Limitado",
+  "site": "https://www.shutterstock.com/",
+  "chave": "https://developers.shutterstock.com/",
+  "docs": "https://developers.shutterstock.com/documentation",
+  "modelos": "Banco de imagens/geração",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "runway",
+  "nome": "Runway",
+  "categoria": "Vídeo",
+  "gratis": "Limitado",
+  "site": "https://runwayml.com/",
+  "chave": "https://dev.runwayml.com/",
+  "docs": "https://docs.dev.runwayml.com/",
+  "modelos": "Gen-4",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "luma",
+  "nome": "Luma AI",
+  "categoria": "Vídeo",
+  "gratis": "Limitado",
+  "site": "https://lumalabs.ai/",
+  "chave": "https://lumalabs.ai/api",
+  "docs": "https://docs.lumalabs.ai/",
+  "modelos": "Dream Machine",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "kling",
+  "nome": "Kling AI",
+  "categoria": "Vídeo",
+  "gratis": "Limitado",
+  "site": "https://klingai.com/",
+  "chave": "https://app.klingai.com/global/dev",
+  "docs": "https://docs.qingque.cn/",
+  "modelos": "Kling",
+  "obs": "Créditos diários; API paga.",
+  "pais": "China"
+ },
+ {
+  "id": "vidu",
+  "nome": "Vidu",
+  "categoria": "Vídeo",
+  "gratis": "Limitado",
+  "site": "https://www.vidu.com/",
+  "chave": "https://platform.vidu.com/",
+  "docs": "https://platform.vidu.com/docs",
+  "modelos": "Vidu",
+  "obs": "Créditos de teste.",
+  "pais": "China"
+ },
+ {
+  "id": "heygen",
+  "nome": "HeyGen",
+  "categoria": "Vídeo",
+  "gratis": "Limitado",
+  "site": "https://www.heygen.com/",
+  "chave": "https://app.heygen.com/settings/api",
+  "docs": "https://docs.heygen.com/",
+  "modelos": "Avatares",
+  "obs": "Free tier com limite.",
+  "pais": "EUA"
+ },
+ {
+  "id": "synthesia",
+  "nome": "Synthesia",
+  "categoria": "Vídeo",
+  "gratis": "Limitado",
+  "site": "https://www.synthesia.io/",
+  "chave": "https://app.synthesia.io/#/settings/api",
+  "docs": "https://docs.synthesia.io/",
+  "modelos": "Avatares",
+  "obs": "Trial disponível.",
+  "pais": "Reino Unido"
+ },
+ {
+  "id": "did",
+  "nome": "D-ID",
+  "categoria": "Vídeo",
+  "gratis": "Limitado",
+  "site": "https://www.d-id.com/",
+  "chave": "https://studio.d-id.com/",
+  "docs": "https://docs.d-id.com/",
+  "modelos": "Avatares",
+  "obs": "Trial disponível.",
+  "pais": "Israel"
+ },
+ {
+  "id": "tavus",
+  "nome": "Tavus",
+  "categoria": "Vídeo",
+  "gratis": "Limitado",
+  "site": "https://www.tavus.io/",
+  "chave": "https://platform.tavus.io/api-keys",
+  "docs": "https://docs.tavus.io/",
+  "modelos": "Avatares interativos",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "twelvelabs",
+  "nome": "TwelveLabs",
+  "categoria": "Vídeo",
+  "gratis": "Limitado",
+  "site": "https://www.twelvelabs.io/",
+  "chave": "https://playground.twelvelabs.io/",
+  "docs": "https://docs.twelvelabs.io/",
+  "modelos": "Entendimento de vídeo",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "shotstack",
+  "nome": "Shotstack",
+  "categoria": "Vídeo",
+  "gratis": "Limitado",
+  "site": "https://shotstack.io/",
+  "chave": "https://dashboard.shotstack.io/",
+  "docs": "https://shotstack.io/docs/",
+  "modelos": "Edição de vídeo",
+  "obs": "Free tier com marca d'água.",
+  "pais": "Austrália"
+ },
+ {
+  "id": "cartesia",
+  "nome": "Cartesia",
+  "categoria": "Áudio/Voz",
+  "gratis": "Sim",
+  "site": "https://cartesia.ai/",
+  "chave": "https://play.cartesia.ai/",
+  "docs": "https://docs.cartesia.ai/",
+  "modelos": "Sonic TTS",
+  "obs": "Free tier com limite.",
+  "pais": "EUA"
+ },
+ {
+  "id": "hume",
+  "nome": "Hume AI",
+  "categoria": "Áudio/Voz",
+  "gratis": "Sim",
+  "site": "https://www.hume.ai/",
+  "chave": "https://platform.hume.ai/",
+  "docs": "https://dev.hume.ai/",
+  "modelos": "EVI/TTS",
+  "obs": "Créditos grátis mensais.",
+  "pais": "EUA"
+ },
+ {
+  "id": "speechmatics",
+  "nome": "Speechmatics",
+  "categoria": "Áudio/Voz",
+  "gratis": "Sim",
+  "site": "https://www.speechmatics.com/",
+  "chave": "https://portal.speechmatics.com/",
+  "docs": "https://docs.speechmatics.com/",
+  "modelos": "STT",
+  "obs": "8h grátis/mês.",
+  "pais": "Reino Unido"
+ },
+ {
+  "id": "revai",
+  "nome": "Rev AI",
+  "categoria": "Áudio/Voz",
+  "gratis": "Sim",
+  "site": "https://www.rev.ai/",
+  "chave": "https://www.rev.ai/access-token",
+  "docs": "https://www.rev.ai/docs",
+  "modelos": "Transcrição",
+  "obs": "Créditos grátis.",
+  "pais": "EUA"
+ },
+ {
+  "id": "soniox",
+  "nome": "Soniox",
+  "categoria": "Áudio/Voz",
+  "gratis": "Sim",
+  "site": "https://soniox.com/",
+  "chave": "https://console.soniox.com/",
+  "docs": "https://soniox.com/docs/",
+  "modelos": "STT/TTS",
+  "obs": "Créditos grátis.",
+  "pais": "EUA"
+ },
+ {
+  "id": "gladia",
+  "nome": "Gladia",
+  "categoria": "Áudio/Voz",
+  "gratis": "Sim",
+  "site": "https://www.gladia.io/",
+  "chave": "https://app.gladia.io/",
+  "docs": "https://docs.gladia.io/",
+  "modelos": "STT",
+  "obs": "10h grátis/mês.",
+  "pais": "França"
+ },
+ {
+  "id": "resemble",
+  "nome": "Resemble AI",
+  "categoria": "Áudio/Voz",
+  "gratis": "Limitado",
+  "site": "https://www.resemble.ai/",
+  "chave": "https://app.resemble.ai/",
+  "docs": "https://docs.resemble.ai/",
+  "modelos": "TTS/clonagem",
+  "obs": "Créditos de teste.",
+  "pais": "Canadá"
+ },
+ {
+  "id": "lmnt",
+  "nome": "LMNT",
+  "categoria": "Áudio/Voz",
+  "gratis": "Limitado",
+  "site": "https://www.lmnt.com/",
+  "chave": "https://www.lmnt.com/",
+  "docs": "https://docs.lmnt.com/",
+  "modelos": "TTS",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "rime",
+  "nome": "Rime AI",
+  "categoria": "Áudio/Voz",
+  "gratis": "Limitado",
+  "site": "https://www.rime.ai/",
+  "chave": "https://app.rime.ai/",
+  "docs": "https://docs.rime.ai/",
+  "modelos": "TTS",
+  "obs": "Créditos de teste.",
+  "pais": "EUA"
+ },
+ {
+  "id": "exa",
+  "nome": "Exa",
+  "categoria": "Busca/RAG",
+  "gratis": "Sim",
+  "site": "https://exa.ai/",
+  "chave": "https://dashboard.exa.ai/api-keys",
+  "docs": "https://docs.exa.ai/",
+  "modelos": "Busca semântica",
+  "obs": "Créditos grátis.",
+  "pais": "EUA"
+ },
+ {
+  "id": "tavily",
+  "nome": "Tavily",
+  "categoria": "Busca/RAG",
+  "gratis": "Sim",
+  "site": "https://tavily.com/",
+  "chave": "https://app.tavily.com/home",
+  "docs": "https://docs.tavily.com/",
+  "modelos": "Busca para LLMs",
+  "obs": "1000 créditos/mês grátis.",
+  "pais": "EUA"
+ },
+ {
+  "id": "brave-search",
+  "nome": "Brave Search API",
+  "categoria": "Busca/RAG",
+  "gratis": "Sim",
+  "site": "https://brave.com/search/api/",
+  "chave": "https://api.search.brave.com/app/keys",
+  "docs": "https://api.search.brave.com/app/documentation",
+  "modelos": "Busca web",
+  "obs": "Plano grátis com limite.",
+  "pais": "EUA"
+ },
+ {
+  "id": "serper",
+  "nome": "Serper",
+  "categoria": "Busca/RAG",
+  "gratis": "Sim",
+  "site": "https://serper.dev/",
+  "chave": "https://serper.dev/dashboard",
+  "docs": "https://serper.dev/playground",
+  "modelos": "Busca Google",
+  "obs": "2500 consultas grátis.",
+  "pais": "EUA"
+ },
+ {
+  "id": "firecrawl",
+  "nome": "Firecrawl",
+  "categoria": "Busca/RAG",
+  "gratis": "Sim",
+  "site": "https://www.firecrawl.dev/",
+  "chave": "https://www.firecrawl.dev/app/api-keys",
+  "docs": "https://docs.firecrawl.dev/",
+  "modelos": "Crawl/scrape",
+  "obs": "Créditos grátis.",
+  "pais": "EUA"
+ },
+ {
+  "id": "apify",
+  "nome": "Apify",
+  "categoria": "Busca/RAG",
+  "gratis": "Sim",
+  "site": "https://apify.com/",
+  "chave": "https://console.apify.com/account/integrations",
+  "docs": "https://docs.apify.com/",
+  "modelos": "Scraping/atores",
+  "obs": "$5 grátis/mês.",
+  "pais": "República Tcheca"
+ },
+ {
+  "id": "unstructured",
+  "nome": "Unstructured",
+  "categoria": "OCR/Documentos",
+  "gratis": "Sim",
+  "site": "https://unstructured.io/",
+  "chave": "https://app.unstructured.io/",
+  "docs": "https://docs.unstructured.io/",
+  "modelos": "Parsing de documentos",
+  "obs": "Créditos grátis.",
+  "pais": "EUA"
+ },
+ {
+  "id": "llamaparse",
+  "nome": "LlamaParse",
+  "categoria": "OCR/Documentos",
+  "gratis": "Sim",
+  "site": "https://www.llamaindex.ai/",
+  "chave": "https://cloud.llamaindex.ai/",
+  "docs": "https://docs.cloud.llamaindex.ai/",
+  "modelos": "Parsing para RAG",
+  "obs": "Créditos grátis.",
+  "pais": "EUA"
+ },
+ {
+  "id": "meshy",
+  "nome": "Meshy",
+  "categoria": "3D",
+  "gratis": "Limitado",
+  "site": "https://www.meshy.ai/",
+  "chave": "https://www.meshy.ai/api",
+  "docs": "https://docs.meshy.ai/",
+  "modelos": "Texto/imagem → 3D",
+  "obs": "Créditos grátis.",
+  "pais": "EUA"
+ },
+ {
+  "id": "tripo",
+  "nome": "Tripo AI",
+  "categoria": "3D",
+  "gratis": "Limitado",
+  "site": "https://www.tripo3d.ai/",
+  "chave": "https://platform.tripo3d.ai/",
+  "docs": "https://docs.tripo3d.ai/",
+  "modelos": "Texto/imagem → 3D",
+  "obs": "Créditos de teste.",
+  "pais": "China"
+ },
+ {
+  "id": "deepl",
+  "nome": "DeepL",
+  "categoria": "Tradução",
+  "gratis": "Sim",
+  "site": "https://www.deepl.com/",
+  "chave": "https://www.deepl.com/pro-api",
+  "docs": "https://developers.deepl.com/docs",
+  "modelos": "Tradução",
+  "obs": "500k caracteres grátis/mês.",
+  "pais": "Alemanha"
+ },
+ {
+  "id": "nomic",
+  "nome": "Nomic AI",
+  "categoria": "Embeddings",
+  "gratis": "Sim",
+  "site": "https://www.nomic.ai/",
+  "chave": "https://atlas.nomic.ai/",
+  "docs": "https://docs.nomic.ai/",
+  "modelos": "Nomic Embed",
+  "obs": "Créditos grátis.",
+  "pais": "EUA"
+ },
+ {
+  "id": "mixedbread",
+  "nome": "Mixedbread",
+  "categoria": "Embeddings",
+  "gratis": "Sim",
+  "site": "https://www.mixedbread.com/",
+  "chave": "https://www.platform.mixedbread.com/",
+  "docs": "https://www.mixedbread.com/docs",
+  "modelos": "Embeddings/rerank",
+  "obs": "Créditos grátis.",
+  "pais": "Alemanha"
+ },
+ {
+  "id": "llama-cpp",
+  "nome": "llama.cpp",
+  "categoria": "Local",
+  "gratis": "Local",
+  "site": "https://github.com/ggml-org/llama.cpp",
+  "chave": "",
+  "docs": "https://github.com/ggml-org/llama.cpp/tree/master/tools/server",
+  "modelos": "GGUF local",
+  "obs": "Roda local; sem API key.",
+  "pais": "Global"
+ },
+ {
+  "id": "jan",
+  "nome": "Jan",
+  "categoria": "Local",
+  "gratis": "Local",
+  "site": "https://jan.ai/",
+  "chave": "",
+  "docs": "https://jan.ai/docs",
+  "modelos": "GGUF local",
+  "obs": "Roda local; sem API key.",
+  "pais": "EUA"
+ },
+ {
+  "id": "gpt4all",
+  "nome": "GPT4All",
+  "categoria": "Local",
+  "gratis": "Local",
+  "site": "https://www.nomic.ai/gpt4all",
+  "chave": "",
+  "docs": "https://docs.gpt4all.io/",
+  "modelos": "GGUF local",
+  "obs": "Roda local; sem API key.",
+  "pais": "EUA"
+ },
+ {
+  "id": "localai",
+  "nome": "LocalAI",
+  "categoria": "Local",
+  "gratis": "Local",
+  "site": "https://localai.io/",
+  "chave": "",
+  "docs": "https://localai.io/docs/",
+  "modelos": "API OpenAI-compatível",
+  "obs": "Self-hosted; sem API key.",
+  "pais": "Itália"
+ },
+ {
+  "id": "libretranslate",
+  "nome": "LibreTranslate",
+  "categoria": "Tradução",
+  "gratis": "Local",
+  "site": "https://libretranslate.com/",
+  "chave": "",
+  "docs": "https://docs.libretranslate.com/",
+  "modelos": "Tradução local",
+  "obs": "Self-hosted; sem API key.",
+  "pais": "Global"
+ },
+ {
+  "id": "comfyui",
+  "nome": "ComfyUI",
+  "categoria": "Local",
+  "gratis": "Local",
+  "site": "https://www.comfy.org/",
+  "chave": "",
+  "docs": "https://docs.comfy.org/",
+  "modelos": "Imagem/vídeo local",
+  "obs": "Roda local; sem API key.",
+  "pais": "EUA"
  }
 ]
