@@ -28,8 +28,15 @@
   @media(max-width:520px){.controls{grid-template-columns:1fr}}
   input,select{background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-size:14px;width:100%}
   input:focus,select:focus{outline:2px solid var(--accent);outline-offset:-1px}
+  .filterbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:#1c2128;border:1px solid var(--border);border-radius:8px;padding:8px 12px;margin:0 0 14px;font-size:13px;color:var(--muted)}
+  .filterbar b{color:var(--text)}
+  .filterbar button{border:1px solid var(--border);border-radius:6px;padding:4px 10px;font-size:12px;background:#21262d;color:var(--text);cursor:pointer}
+  .filterbar button:hover{border-color:#8b949e}
+  .quick{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 16px;font-size:13px;color:var(--muted)}
+  .quick a{border:1px solid var(--border);border-radius:20px;padding:3px 10px;color:var(--text);background:#161b22}
+  .quick a:hover{border-color:var(--accent);text-decoration:none}
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
-  .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:9px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:9px;scroll-margin-top:20px}
   .card:hover{border-color:#484f58}
   .cardhead{display:flex;align-items:center;justify-content:space-between;gap:8px}
   .cardhead h3{margin:0;font-size:17px}
@@ -66,6 +73,7 @@
     <a href="apis.csv">CSV</a>
     <a href="apis.json">JSON</a>
     <a href="status.json">Status dos links</a>
+    <a href="./">Ver todos</a>
   </div>
 </header>
 
@@ -88,6 +96,18 @@
     </select>
   </div>
 
+  <div class="filterbar" id="filtro"></div>
+  <div class="quick">
+    <span>Atalhos:</span>
+    <a href="./#p-openai">OpenAI</a>
+    <a href="./#p-anthropic">Anthropic</a>
+    <a href="./#p-google-ai-studio">Google</a>
+    <a href="./#p-meta-llama">Meta Llama</a>
+    <a href="./#p-mistral">Mistral</a>
+    <a href="./#p-xai">xAI</a>
+    <a href="./#p-deepseek">DeepSeek</a>
+    <a href="./#p-alibaba">Qwen (Alibaba)</a>
+  </div>
   <div class="grid" id="grid"></div>
 </main>
 
@@ -97,7 +117,8 @@
 
 <script>
 const $ = id => document.getElementById(id);
-let APIS = [], STATUS = null, view = [];
+let APIS = [], STATUS = null, view = [], didScroll = false;
+const initialHash = location.hash;
 
 const FREE_ORDER = { 'Sim': 0, 'Local': 1, 'Limitado': 2, 'Não': 3 };
 const FREE_CLASS = { 'Sim': 'b-sim', 'Limitado': 'b-lim', 'Não': 'b-nao', 'Local': 'b-local' };
@@ -149,7 +170,7 @@ function syncParams(){
   for (const id of ['q','cat','pais','free','sort']){
     if ($(id).value) qs.set(id, $(id).value);
   }
-  const url = qs.toString() ? '?' + qs.toString() : location.pathname;
+  const url = (qs.toString() ? '?' + qs.toString() : location.pathname) + location.hash;
   try { history.replaceState(null, '', url); } catch(e){}
 }
 
@@ -179,7 +200,32 @@ function apply(){
   );
   syncParams();
   renderStats();
+  renderFilterBar();
   render();
+}
+
+function renderFilterBar(){
+  const el = $('filtro');
+  const active = [];
+  if ($('q').value.trim()) active.push('busca “' + esc($('q').value.trim()) + '”');
+  if ($('cat').value) active.push(esc($('cat').value));
+  if ($('pais').value) active.push(flag($('pais').value) + ' ' + esc($('pais').value));
+  if ($('free').value) active.push('grátis: ' + esc($('free').value));
+  if (active.length){
+    el.innerHTML = `Mostrando <b>${view.length}</b> de <b>${APIS.length}</b> · ${active.join(' · ')} <button type="button" id="clear">Ver todos</button>`;
+    el.querySelector('#clear').addEventListener('click', resetFilters);
+  } else {
+    el.innerHTML = `Mostrando todos os <b>${APIS.length}</b> provedores de uma vez.`;
+  }
+}
+
+function resetFilters(){
+  $('q').value = '';
+  $('cat').value = '';
+  $('pais').value = '';
+  $('free').value = '';
+  $('sort').value = 'az';
+  apply();
 }
 
 function renderStats(){
@@ -212,7 +258,7 @@ function render(){
     const chave = p.chave
       ? `<a class="btn primary" href="${esc(p.chave)}" target="_blank" rel="noopener">Criar API</a>`
       : `<span class="btn off">Sem API key (local)</span>`;
-    return `<article class="card">
+    return `<article class="card" id="p-${p.id}">
       <div class="cardhead"><h3>${esc(p.nome)}</h3><span class="dot ${st}" title="${dotTitle}"></span></div>
       <div class="badges">
         <span class="badge">${esc(p.categoria)}</span>
@@ -228,6 +274,10 @@ function render(){
       </div>
     </article>`;
   }).join('');
+  if (!didScroll && initialHash){
+    const el = document.getElementById(initialHash.slice(1));
+    if (el){ el.scrollIntoView({block:'center'}); didScroll = true; }
+  }
 }
 
 load();
