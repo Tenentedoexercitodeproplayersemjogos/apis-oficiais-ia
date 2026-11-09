@@ -1,8 +1,8 @@
 {
- "checked_at": "2026-11-02T16:52:25Z",
+ "checked_at": "2026-11-09T17:14:05Z",
  "resumo": {
-  "ok": 331,
-  "protegido": 26,
+  "ok": 334,
+  "protegido": 23,
   "erro": 0,
   "sem-chave": 9
  },
@@ -938,12 +938,12 @@
     "status": "ok"
    },
    "chave": {
-    "code": 307,
-    "status": "protegido"
+    "code": 200,
+    "status": "ok"
    },
    "docs": {
-    "code": 307,
-    "status": "protegido"
+    "code": 200,
+    "status": "ok"
    }
   },
   "gigachat": {
@@ -1060,8 +1060,8 @@
   },
   "ideogram": {
    "site": {
-    "code": 403,
-    "status": "protegido"
+    "code": 200,
+    "status": "ok"
    },
    "chave": {
     "code": 403,
